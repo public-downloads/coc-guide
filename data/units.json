@@ -1,0 +1,2565 @@
+{
+  "units": [
+    {
+      "id": "action-figure",
+      "category": "equipment",
+      "hero": "archer-queen",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "angry-jelly",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 16,
+      "maxLevelAt": {
+        "16": 10,
+        "17": 10,
+        "18": 10
+      },
+      "dataQuality": "verified"
+    },
+    {
+      "id": "angry-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 1,
+        "16": 2,
+        "17": 3,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "apprentice-warden",
+      "category": "dark-troop",
+      "housingSpace": 20,
+      "availableAt": 13,
+      "maxLevelAt": {
+        "13": 2,
+        "14": 3,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "archer",
+      "category": "troop",
+      "housingSpace": 1,
+      "availableAt": 1,
+      "maxLevelAt": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "archer-puppet",
+      "category": "equipment",
+      "hero": "archer-queen",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "archer-queen",
+      "category": "hero",
+      "housingSpace": null,
+      "availableAt": 8,
+      "maxLevelAt": {
+        "8": 10,
+        "9": 30,
+        "10": 40,
+        "11": 50,
+        "12": 65,
+        "13": 75,
+        "14": 85,
+        "15": 90,
+        "16": 95,
+        "17": 100,
+        "18": 110
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "baby-dragon",
+      "category": "troop",
+      "housingSpace": 10,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 4,
+        "11": 5,
+        "12": 6,
+        "13": 7,
+        "14": 8,
+        "15": 9,
+        "16": 10,
+        "17": 11,
+        "18": 12
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "balloon",
+      "category": "troop",
+      "housingSpace": 5,
+      "availableAt": 4,
+      "maxLevelAt": {
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "13": 9,
+        "14": 10,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "barbarian",
+      "category": "troop",
+      "housingSpace": 1,
+      "availableAt": 1,
+      "maxLevelAt": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 12,
+        "18": 13
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "barbarian-king",
+      "category": "hero",
+      "housingSpace": null,
+      "availableAt": 7,
+      "maxLevelAt": {
+        "7": 10,
+        "8": 20,
+        "9": 30,
+        "10": 40,
+        "11": 50,
+        "12": 65,
+        "13": 75,
+        "14": 85,
+        "15": 90,
+        "16": 95,
+        "17": 100,
+        "18": 110
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "barbarian-puppet",
+      "category": "equipment",
+      "hero": "barbarian-king",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "bat-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 10,
+      "maxLevelAt": {
+        "10": 3,
+        "11": 4,
+        "12": 5,
+        "13": 5,
+        "14": 5,
+        "15": 6,
+        "16": 6,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "battle-blimp",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 12,
+      "maxLevelAt": {
+        "12": 3,
+        "13": 4,
+        "14": 4,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "battle-drill",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 4,
+        "16": 4,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "bowler",
+      "category": "dark-troop",
+      "housingSpace": 6,
+      "availableAt": 10,
+      "maxLevelAt": {
+        "10": 2,
+        "11": 3,
+        "12": 4,
+        "13": 5,
+        "14": 6,
+        "15": 7,
+        "16": 8,
+        "17": 9,
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "clone-spell",
+      "category": "spell",
+      "housingSpace": 3,
+      "availableAt": 10,
+      "maxLevelAt": {
+        "10": 3,
+        "11": 5,
+        "12": 5,
+        "13": 6,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 9
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "dark-crown",
+      "category": "equipment",
+      "hero": "minion-prince",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "dark-orb",
+      "category": "equipment",
+      "hero": "minion-prince",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "diggy",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 10,
+        "16": 10,
+        "17": 10,
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "dragon",
+      "category": "troop",
+      "housingSpace": 20,
+      "availableAt": 7,
+      "maxLevelAt": {
+        "7": 2,
+        "8": 3,
+        "9": 4,
+        "10": 5,
+        "11": 6,
+        "12": 7,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "dragon-duke",
+      "category": "hero",
+      "housingSpace": null,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 10,
+        "16": 15,
+        "17": 20,
+        "18": 25
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "dragon-rider",
+      "category": "troop",
+      "housingSpace": 25,
+      "availableAt": 13,
+      "maxLevelAt": {
+        "13": 2,
+        "14": 3,
+        "15": 3,
+        "16": 4,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "druid",
+      "category": "dark-troop",
+      "housingSpace": 16,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "14": 2,
+        "15": 3,
+        "16": 4,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "earthquake-boots",
+      "category": "equipment",
+      "hero": "barbarian-king",
+      "housingSpace": null,
+      "availableAt": 8,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "earthquake-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 8,
+      "maxLevelAt": {
+        "8": 2,
+        "9": 3,
+        "10": 4,
+        "11": 5,
+        "12": 5,
+        "13": 5,
+        "14": 6,
+        "15": 6,
+        "16": 7,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "electro-boots",
+      "category": "equipment",
+      "hero": "royal-champion",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "electro-dragon",
+      "category": "troop",
+      "housingSpace": 30,
+      "availableAt": 11,
+      "maxLevelAt": {
+        "11": 2,
+        "12": 3,
+        "13": 4,
+        "14": 5,
+        "15": 6,
+        "16": 7,
+        "17": 8,
+        "18": 9
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "electro-fangs",
+      "category": "equipment",
+      "hero": "dragon-duke",
+      "housingSpace": null,
+      "availableAt": 17,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "electro-owl",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "14": 10,
+        "15": 10,
+        "16": 15,
+        "17": 15,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "electro-titan",
+      "category": "troop",
+      "housingSpace": 32,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "14": 2,
+        "15": 3,
+        "16": 4,
+        "17": 4,
+        "18": 5
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "eternal-tome",
+      "category": "equipment",
+      "hero": "grand-warden",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "fire-heart",
+      "category": "equipment",
+      "hero": "dragon-duke",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "fireball",
+      "category": "equipment",
+      "hero": "grand-warden",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "flame-blower",
+      "category": "equipment",
+      "hero": "dragon-duke",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "flame-flinger",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "14": 4,
+        "15": 4,
+        "16": 5,
+        "17": 5,
+        "18": 5
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "freeze-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 5,
+        "11": 6,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 7,
+        "16": 7,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "frost-flake",
+      "category": "equipment",
+      "hero": "royal-champion",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "frosty",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 10,
+        "16": 10,
+        "17": 15,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "frozen-arrow",
+      "category": "equipment",
+      "hero": "archer-queen",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "furnace",
+      "category": "dark-troop",
+      "housingSpace": 18,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 2,
+        "16": 3,
+        "17": 4,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "giant",
+      "category": "troop",
+      "housingSpace": 5,
+      "availableAt": 1,
+      "maxLevelAt": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 10,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "giant-arrow",
+      "category": "equipment",
+      "hero": "archer-queen",
+      "housingSpace": null,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "giant-gauntlet",
+      "category": "equipment",
+      "hero": "barbarian-king",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "goblin",
+      "category": "troop",
+      "housingSpace": 1,
+      "availableAt": 2,
+      "maxLevelAt": {
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 7,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 9,
+        "16": 9,
+        "17": 9,
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "golem",
+      "category": "dark-troop",
+      "housingSpace": 30,
+      "availableAt": 8,
+      "maxLevelAt": {
+        "8": 2,
+        "9": 4,
+        "10": 5,
+        "11": 7,
+        "12": 9,
+        "13": 10,
+        "14": 11,
+        "15": 12,
+        "16": 13,
+        "17": 14,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "grand-warden",
+      "category": "hero",
+      "housingSpace": null,
+      "availableAt": 11,
+      "maxLevelAt": {
+        "11": 20,
+        "12": 40,
+        "13": 50,
+        "14": 60,
+        "15": 65,
+        "16": 70,
+        "17": 75,
+        "18": 85
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "greedy-raven",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 18,
+      "maxLevelAt": {
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "haste-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 4,
+        "11": 5,
+        "12": 5,
+        "13": 5,
+        "14": 5,
+        "15": 5,
+        "16": 5,
+        "17": 6,
+        "18": 7
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "haste-vial",
+      "category": "equipment",
+      "hero": "royal-champion",
+      "housingSpace": null,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "headhunter",
+      "category": "dark-troop",
+      "housingSpace": 6,
+      "availableAt": 12,
+      "maxLevelAt": {
+        "12": 2,
+        "13": 3,
+        "14": 3,
+        "15": 3,
+        "16": 3,
+        "17": 3,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "healer",
+      "category": "troop",
+      "housingSpace": 14,
+      "availableAt": 6,
+      "maxLevelAt": {
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 4,
+        "10": 4,
+        "11": 5,
+        "12": 5,
+        "13": 6,
+        "14": 7,
+        "15": 8,
+        "16": 9,
+        "17": 10,
+        "18": 11
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "healer-puppet",
+      "category": "equipment",
+      "hero": "archer-queen",
+      "housingSpace": null,
+      "availableAt": 12,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "healing-spell",
+      "category": "spell",
+      "housingSpace": 2,
+      "availableAt": 6,
+      "maxLevelAt": {
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 7,
+        "12": 7,
+        "13": 8,
+        "14": 8,
+        "15": 9,
+        "16": 10,
+        "17": 11,
+        "18": 12
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "healing-tome",
+      "category": "equipment",
+      "hero": "grand-warden",
+      "housingSpace": null,
+      "availableAt": 13,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "henchmen-puppet",
+      "category": "equipment",
+      "hero": "minion-prince",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "heroic-torch",
+      "category": "equipment",
+      "hero": "grand-warden",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "hog-rider",
+      "category": "dark-troop",
+      "housingSpace": 5,
+      "availableAt": 7,
+      "maxLevelAt": {
+        "7": 2,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 9,
+        "13": 10,
+        "14": 11,
+        "15": 12,
+        "16": 13,
+        "17": 14,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "hog-rider-puppet",
+      "category": "equipment",
+      "hero": "royal-champion",
+      "housingSpace": null,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "ice-block-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "14": 2,
+        "15": 3,
+        "16": 4,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "ice-golem",
+      "category": "dark-troop",
+      "housingSpace": 15,
+      "availableAt": 11,
+      "maxLevelAt": {
+        "11": 3,
+        "12": 5,
+        "13": 5,
+        "14": 6,
+        "15": 7,
+        "16": 8,
+        "17": 9,
+        "18": 9
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "ice-hound",
+      "category": "super-troop",
+      "housingSpace": 40,
+      "availableAt": null,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 3,
+        "11": 4,
+        "12": 5,
+        "13": 6,
+        "14": 6,
+        "15": 6,
+        "16": 7,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "inferno-dragon",
+      "category": "super-troop",
+      "housingSpace": 15,
+      "availableAt": null,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 4,
+        "11": 5,
+        "12": 6,
+        "13": 7,
+        "14": 8,
+        "15": 9,
+        "16": 10,
+        "17": 11,
+        "18": 12
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "invisibility-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 11,
+      "maxLevelAt": {
+        "11": 2,
+        "12": 3,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "invisibility-vial",
+      "category": "equipment",
+      "hero": "archer-queen",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "jump-spell",
+      "category": "spell",
+      "housingSpace": 2,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 3,
+        "11": 3,
+        "12": 3,
+        "13": 4,
+        "14": 4,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 5
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "lassi",
+      "name": "L.A.S.S.I.",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "14": 10,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "lava-hound",
+      "category": "dark-troop",
+      "housingSpace": 30,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 3,
+        "11": 4,
+        "12": 5,
+        "13": 6,
+        "14": 6,
+        "15": 6,
+        "16": 7,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "lavaloon-puppet",
+      "category": "equipment",
+      "hero": "grand-warden",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "life-gem",
+      "category": "equipment",
+      "hero": "grand-warden",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "lightning-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 5,
+      "maxLevelAt": {
+        "5": 4,
+        "6": 4,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 9,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "log-launcher",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 13,
+      "maxLevelAt": {
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 5,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "magic-mirror",
+      "category": "equipment",
+      "hero": "archer-queen",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "metal-pants",
+      "category": "equipment",
+      "hero": "minion-prince",
+      "housingSpace": null,
+      "availableAt": 10,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "meteor-golem",
+      "category": "troop",
+      "housingSpace": 40,
+      "availableAt": 17,
+      "maxLevelAt": {
+        "17": 2,
+        "18": 3
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "meteor-staff",
+      "category": "equipment",
+      "hero": "minion-prince",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "mighty-yak",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "14": 10,
+        "15": 15,
+        "16": 15,
+        "17": 15,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "miner",
+      "category": "troop",
+      "housingSpace": 6,
+      "availableAt": 10,
+      "maxLevelAt": {
+        "10": 3,
+        "11": 5,
+        "12": 6,
+        "13": 7,
+        "14": 8,
+        "15": 9,
+        "16": 10,
+        "17": 11,
+        "18": 12
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "minion",
+      "category": "dark-troop",
+      "housingSpace": 2,
+      "availableAt": 7,
+      "maxLevelAt": {
+        "7": 2,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "minion-prince",
+      "category": "hero",
+      "housingSpace": null,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "9": 10,
+        "10": 20,
+        "11": 30,
+        "12": 40,
+        "13": 50,
+        "14": 60,
+        "15": 70,
+        "16": 80,
+        "17": 90,
+        "18": 95
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "monolith-arrow",
+      "category": "equipment",
+      "hero": "archer-queen",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "noble-iron",
+      "category": "equipment",
+      "hero": "minion-prince",
+      "housingSpace": null,
+      "availableAt": 12,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "overgrowth-spell",
+      "category": "spell",
+      "housingSpace": 2,
+      "availableAt": 12,
+      "maxLevelAt": {
+        "12": 2,
+        "13": 2,
+        "14": 3,
+        "15": 3,
+        "16": 4,
+        "17": 4,
+        "18": 5
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "pekka",
+      "name": "P.E.K.K.A.",
+      "category": "troop",
+      "housingSpace": 25,
+      "availableAt": 8,
+      "maxLevelAt": {
+        "8": 3,
+        "9": 4,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "13": 9,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "phoenix",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 10,
+        "16": 10,
+        "17": 10,
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "poison-lizard",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 10,
+        "16": 10,
+        "17": 15,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "poison-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 8,
+      "maxLevelAt": {
+        "8": 2,
+        "9": 3,
+        "10": 4,
+        "11": 5,
+        "12": 6,
+        "13": 7,
+        "14": 8,
+        "15": 9,
+        "16": 10,
+        "17": 11,
+        "18": 12
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "rage-gem",
+      "category": "equipment",
+      "hero": "grand-warden",
+      "housingSpace": null,
+      "availableAt": 11,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "rage-spell",
+      "category": "spell",
+      "housingSpace": 2,
+      "availableAt": 7,
+      "maxLevelAt": {
+        "7": 4,
+        "8": 5,
+        "9": 5,
+        "10": 5,
+        "11": 5,
+        "12": 6,
+        "13": 6,
+        "14": 6,
+        "15": 6,
+        "16": 6,
+        "17": 6,
+        "18": 7
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "rage-vial",
+      "category": "equipment",
+      "hero": "barbarian-king",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "recall-spell",
+      "category": "spell",
+      "housingSpace": 2,
+      "availableAt": 13,
+      "maxLevelAt": {
+        "13": 2,
+        "14": 3,
+        "15": 4,
+        "16": 5,
+        "17": 6,
+        "18": 7
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "revenge-deck",
+      "category": "equipment",
+      "hero": "dragon-duke",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "revive-spell",
+      "category": "spell",
+      "housingSpace": 2,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 2,
+        "16": 3,
+        "17": 4,
+        "18": 5
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "rocket-backpack",
+      "category": "equipment",
+      "hero": "dragon-duke",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "rocket-balloon",
+      "category": "super-troop",
+      "housingSpace": 8,
+      "availableAt": null,
+      "maxLevelAt": {
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "13": 9,
+        "14": 10,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "rocket-spear",
+      "category": "equipment",
+      "hero": "royal-champion",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "root-rider",
+      "category": "troop",
+      "housingSpace": 20,
+      "availableAt": 15,
+      "maxLevelAt": {
+        "15": 2,
+        "16": 3,
+        "17": 3,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "royal-champion",
+      "category": "hero",
+      "housingSpace": null,
+      "availableAt": 13,
+      "maxLevelAt": {
+        "13": 25,
+        "14": 30,
+        "15": 40,
+        "16": 45,
+        "17": 50,
+        "18": 55
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "royal-gem",
+      "category": "equipment",
+      "hero": "royal-champion",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "ruin-witch",
+      "category": "dark-troop",
+      "housingSpace": 26,
+      "availableAt": 16,
+      "maxLevelAt": {
+        "16": 2,
+        "17": 3,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "seeking-shield",
+      "category": "equipment",
+      "hero": "royal-champion",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "siege-barracks",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 13,
+      "maxLevelAt": {
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 5,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "skeleton-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "9": 1,
+        "10": 3,
+        "11": 4,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "sky-wagon",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 17,
+      "maxLevelAt": {
+        "17": 2,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "snake-bracelet",
+      "category": "equipment",
+      "hero": "barbarian-king",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "sneaky-goblin",
+      "category": "super-troop",
+      "housingSpace": 3,
+      "availableAt": null,
+      "maxLevelAt": {
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 7,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 9,
+        "16": 9,
+        "17": 9,
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "sneezy",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 17,
+      "maxLevelAt": {
+        "17": 10,
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "spiky-ball",
+      "category": "equipment",
+      "hero": "barbarian-king",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "spirit-fox",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 16,
+      "maxLevelAt": {
+        "16": 10,
+        "17": 10,
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "stick-horse",
+      "category": "equipment",
+      "hero": "barbarian-king",
+      "housingSpace": null,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 12,
+        "9": 12,
+        "10": 15,
+        "11": 15,
+        "12": 18,
+        "13": 18,
+        "14": 21,
+        "15": 24,
+        "16": 27,
+        "17": 27,
+        "18": 27
+      },
+      "dataQuality": "stub"
+    },
+    {
+      "id": "stone-slammer",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 12,
+      "maxLevelAt": {
+        "12": 3,
+        "13": 4,
+        "14": 4,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "stun-blaster",
+      "category": "equipment",
+      "hero": "dragon-duke",
+      "housingSpace": null,
+      "availableAt": 16,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-archer",
+      "category": "super-troop",
+      "housingSpace": 12,
+      "availableAt": null,
+      "maxLevelAt": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-barbarian",
+      "category": "super-troop",
+      "housingSpace": 5,
+      "availableAt": null,
+      "maxLevelAt": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 12,
+        "18": 13
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-bowler",
+      "category": "super-troop",
+      "housingSpace": 30,
+      "availableAt": null,
+      "maxLevelAt": {
+        "10": 2,
+        "11": 3,
+        "12": 4,
+        "13": 5,
+        "14": 6,
+        "15": 7,
+        "16": 8,
+        "17": 9,
+        "18": 10
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-dragon",
+      "category": "super-troop",
+      "housingSpace": 40,
+      "availableAt": null,
+      "maxLevelAt": {
+        "7": 2,
+        "8": 3,
+        "9": 4,
+        "10": 5,
+        "11": 6,
+        "12": 7,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-giant",
+      "category": "super-troop",
+      "housingSpace": 12,
+      "availableAt": null,
+      "maxLevelAt": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 10,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-hog-rider",
+      "category": "super-troop",
+      "housingSpace": 12,
+      "availableAt": null,
+      "maxLevelAt": {
+        "7": 2,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 9,
+        "13": 10,
+        "14": 11,
+        "15": 12,
+        "16": 13,
+        "17": 14,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-miner",
+      "category": "super-troop",
+      "housingSpace": 24,
+      "availableAt": null,
+      "maxLevelAt": {
+        "10": 3,
+        "11": 5,
+        "12": 6,
+        "13": 7,
+        "14": 8,
+        "15": 9,
+        "16": 10,
+        "17": 11,
+        "18": 12
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-minion",
+      "category": "super-troop",
+      "housingSpace": 12,
+      "availableAt": null,
+      "maxLevelAt": {
+        "7": 2,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-valkyrie",
+      "category": "super-troop",
+      "housingSpace": 20,
+      "availableAt": null,
+      "maxLevelAt": {
+        "8": 2,
+        "9": 4,
+        "10": 5,
+        "11": 6,
+        "12": 7,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 12
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-wall-breaker",
+      "category": "super-troop",
+      "housingSpace": 8,
+      "availableAt": null,
+      "maxLevelAt": {
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-witch",
+      "category": "super-troop",
+      "housingSpace": 40,
+      "availableAt": null,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 3,
+        "11": 4,
+        "12": 5,
+        "13": 5,
+        "14": 5,
+        "15": 6,
+        "16": 7,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-wizard",
+      "category": "super-troop",
+      "housingSpace": 10,
+      "availableAt": null,
+      "maxLevelAt": {
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 10,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "super-yeti",
+      "category": "super-troop",
+      "housingSpace": 35,
+      "availableAt": null,
+      "maxLevelAt": {
+        "12": 2,
+        "13": 3,
+        "14": 4,
+        "15": 5,
+        "16": 6,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "thrower",
+      "category": "troop",
+      "housingSpace": 16,
+      "availableAt": 16,
+      "maxLevelAt": {
+        "16": 2,
+        "17": 3,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "totem-spell",
+      "category": "spell",
+      "housingSpace": 1,
+      "availableAt": 16,
+      "maxLevelAt": {
+        "16": 2,
+        "17": 3,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "troop-launcher",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 16,
+      "maxLevelAt": {
+        "16": 3,
+        "17": 4,
+        "18": 4
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "unicorn",
+      "category": "pet",
+      "housingSpace": null,
+      "availableAt": 14,
+      "maxLevelAt": {
+        "14": 10,
+        "15": 10,
+        "16": 10,
+        "17": 15,
+        "18": 15
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "valkyrie",
+      "category": "dark-troop",
+      "housingSpace": 8,
+      "availableAt": 8,
+      "maxLevelAt": {
+        "8": 2,
+        "9": 4,
+        "10": 5,
+        "11": 6,
+        "12": 7,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 12
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "vampstache",
+      "category": "equipment",
+      "hero": "barbarian-king",
+      "housingSpace": null,
+      "availableAt": 10,
+      "maxLevelAt": {
+        "8": 9,
+        "9": 9,
+        "10": 12,
+        "11": 12,
+        "12": 15,
+        "13": 15,
+        "14": 18,
+        "15": 18,
+        "16": 18,
+        "17": 18,
+        "18": 18
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "wall-breaker",
+      "category": "troop",
+      "housingSpace": 2,
+      "availableAt": 3,
+      "maxLevelAt": {
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "wall-wrecker",
+      "category": "siege",
+      "housingSpace": 1,
+      "availableAt": 12,
+      "maxLevelAt": {
+        "12": 3,
+        "13": 4,
+        "14": 4,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 6
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "witch",
+      "category": "dark-troop",
+      "housingSpace": 12,
+      "availableAt": 9,
+      "maxLevelAt": {
+        "9": 2,
+        "10": 3,
+        "11": 4,
+        "12": 5,
+        "13": 5,
+        "14": 5,
+        "15": 6,
+        "16": 7,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "wizard",
+      "category": "troop",
+      "housingSpace": 4,
+      "availableAt": 5,
+      "maxLevelAt": {
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 10,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      },
+      "dataQuality": "unverified"
+    },
+    {
+      "id": "yeti",
+      "category": "troop",
+      "housingSpace": 18,
+      "availableAt": 12,
+      "maxLevelAt": {
+        "12": 2,
+        "13": 3,
+        "14": 4,
+        "15": 5,
+        "16": 6,
+        "17": 7,
+        "18": 8
+      },
+      "dataQuality": "unverified"
+    }
+  ]
+}

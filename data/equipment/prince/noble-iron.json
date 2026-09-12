@@ -1,0 +1,334 @@
+{
+  "id": "noble-iron",
+  "name": "Noble Iron",
+  "hero": "minion-prince",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "Noble Iron — Passive common equipment for the Minion Prince."
+  },
+  "effectKeys": [
+    "damagePerShotIncrease",
+    "attackRange",
+    "numberOfAttacks",
+    "attackSpeedIncrease"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Noble_Iron (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 350,
+        "attackRange": 10,
+        "numberOfAttacks": 5,
+        "attackSpeedIncrease": 6
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 350,
+        "attackRange": 10,
+        "numberOfAttacks": 5,
+        "attackSpeedIncrease": 7
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 420,
+        "attackRange": 10.5,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 7
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 420,
+        "attackRange": 10.5,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 8
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 420,
+        "attackRange": 10.5,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 9
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 490,
+        "attackRange": 11,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 9
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 490,
+        "attackRange": 11,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 10
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 490,
+        "attackRange": 11,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 11
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 560,
+        "attackRange": 11,
+        "numberOfAttacks": 7,
+        "attackSpeedIncrease": 11
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 560,
+        "attackRange": 11,
+        "numberOfAttacks": 7,
+        "attackSpeedIncrease": 12
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 560,
+        "attackRange": 11,
+        "numberOfAttacks": 7,
+        "attackSpeedIncrease": 13
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 630,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 13
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 630,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 14
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 630,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 15
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 700,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 15
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 700,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 16
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 700,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 17
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 770,
+        "attackRange": 12,
+        "numberOfAttacks": 10,
+        "attackSpeedIncrease": 18
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

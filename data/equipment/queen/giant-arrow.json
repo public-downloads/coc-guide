@@ -1,0 +1,276 @@
+{
+  "id": "giant-arrow",
+  "name": "Giant Arrow",
+  "hero": "archer-queen",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Fires a giant arrow that pierces everything in a straight line across the entire village. Deals double damage to Air Defenses."
+  },
+  "effectKeys": [
+    "projectileDamage"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Giant_Arrow (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 20,
+      "hp": 80,
+      "effect": {
+        "projectileDamage": 750
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 2,
+      "dmg": 23,
+      "hp": 93,
+      "effect": {
+        "projectileDamage": 750
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 3,
+      "dmg": 27,
+      "hp": 106,
+      "effect": {
+        "projectileDamage": 850
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 4,
+      "dmg": 30,
+      "hp": 119,
+      "effect": {
+        "projectileDamage": 850
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 5,
+      "dmg": 33,
+      "hp": 133,
+      "effect": {
+        "projectileDamage": 850
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 6,
+      "dmg": 37,
+      "hp": 146,
+      "effect": {
+        "projectileDamage": 1000
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 7,
+      "dmg": 40,
+      "hp": 159,
+      "effect": {
+        "projectileDamage": 1000
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 8,
+      "dmg": 43,
+      "hp": 172,
+      "effect": {
+        "projectileDamage": 1000
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 9,
+      "dmg": 50,
+      "hp": 199,
+      "effect": {
+        "projectileDamage": 1100
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 2
+    },
+    {
+      "lvl": 10,
+      "dmg": 59,
+      "hp": 241,
+      "effect": {
+        "projectileDamage": 1100
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 68,
+      "hp": 284,
+      "effect": {
+        "projectileDamage": 1100
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 77,
+      "hp": 326,
+      "effect": {
+        "projectileDamage": 1200
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 86,
+      "hp": 369,
+      "effect": {
+        "projectileDamage": 1200
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 96,
+      "hp": 411,
+      "effect": {
+        "projectileDamage": 1200
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 105,
+      "hp": 454,
+      "effect": {
+        "projectileDamage": 1350
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 114,
+      "hp": 496,
+      "effect": {
+        "projectileDamage": 1350
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 123,
+      "hp": 539,
+      "effect": {
+        "projectileDamage": 1350
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 132,
+      "hp": 581,
+      "effect": {
+        "projectileDamage": 1500
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

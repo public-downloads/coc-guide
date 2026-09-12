@@ -1,0 +1,431 @@
+{
+  "id": "meteor-staff",
+  "name": "Meteor Staff",
+  "hero": "minion-prince",
+  "rarity": "epic",
+  "maxLevel": 27,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "Meteor Staff — Passive epic equipment for the Minion Prince."
+  },
+  "effectKeys": [
+    "cooldownTime",
+    "damagePerHit"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Meteor_Staff (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 13,
+      "hp": 558,
+      "effect": {
+        "cooldownTime": 10,
+        "damagePerHit": 250
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 17,
+      "hp": 587,
+      "effect": {
+        "cooldownTime": 10,
+        "damagePerHit": 250
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 21,
+      "hp": 615,
+      "effect": {
+        "cooldownTime": 9.5,
+        "damagePerHit": 300
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 25,
+      "hp": 644,
+      "effect": {
+        "cooldownTime": 9.5,
+        "damagePerHit": 300
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 29,
+      "hp": 673,
+      "effect": {
+        "cooldownTime": 9.5,
+        "damagePerHit": 300
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 33,
+      "hp": 702,
+      "effect": {
+        "cooldownTime": 9,
+        "damagePerHit": 350
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 37,
+      "hp": 730,
+      "effect": {
+        "cooldownTime": 9,
+        "damagePerHit": 350
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 41,
+      "hp": 759,
+      "effect": {
+        "cooldownTime": 9,
+        "damagePerHit": 350
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 45,
+      "hp": 788,
+      "effect": {
+        "cooldownTime": 8.5,
+        "damagePerHit": 400
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 10
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 49,
+      "hp": 817,
+      "effect": {
+        "cooldownTime": 8.5,
+        "damagePerHit": 400
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 11,
+      "dmg": 53,
+      "hp": 845,
+      "effect": {
+        "cooldownTime": 8.5,
+        "damagePerHit": 400
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 12,
+      "dmg": 57,
+      "hp": 874,
+      "effect": {
+        "cooldownTime": 8,
+        "damagePerHit": 450
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 20
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 13,
+      "dmg": 61,
+      "hp": 903,
+      "effect": {
+        "cooldownTime": 8,
+        "damagePerHit": 450
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 14,
+      "dmg": 65,
+      "hp": 932,
+      "effect": {
+        "cooldownTime": 8,
+        "damagePerHit": 450
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 15,
+      "dmg": 69,
+      "hp": 960,
+      "effect": {
+        "cooldownTime": 7.5,
+        "damagePerHit": 500
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 30
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 16,
+      "dmg": 73,
+      "hp": 989,
+      "effect": {
+        "cooldownTime": 7.5,
+        "damagePerHit": 500
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 17,
+      "dmg": 77,
+      "hp": 1018,
+      "effect": {
+        "cooldownTime": 7.5,
+        "damagePerHit": 500
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 18,
+      "dmg": 81,
+      "hp": 1047,
+      "effect": {
+        "cooldownTime": 7,
+        "damagePerHit": 575
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 50
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 19,
+      "dmg": 85,
+      "hp": 1107,
+      "effect": {
+        "cooldownTime": 7,
+        "damagePerHit": 575
+      },
+      "oreCost": {
+        "shiny": 2800,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 20,
+      "dmg": 90,
+      "hp": 1139,
+      "effect": {
+        "cooldownTime": 7,
+        "damagePerHit": 575
+      },
+      "oreCost": {
+        "shiny": 2900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 21,
+      "dmg": 95,
+      "hp": 1171,
+      "effect": {
+        "cooldownTime": 6.5,
+        "damagePerHit": 650
+      },
+      "oreCost": {
+        "shiny": 3000,
+        "glowy": 600,
+        "starry": 100
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 22,
+      "dmg": 100,
+      "hp": 1205,
+      "effect": {
+        "cooldownTime": 6.5,
+        "damagePerHit": 650
+      },
+      "oreCost": {
+        "shiny": 3100,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 23,
+      "dmg": 105,
+      "hp": 1239,
+      "effect": {
+        "cooldownTime": 6.5,
+        "damagePerHit": 650
+      },
+      "oreCost": {
+        "shiny": 3200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 24,
+      "dmg": 110,
+      "hp": 1273,
+      "effect": {
+        "cooldownTime": 6,
+        "damagePerHit": 750
+      },
+      "oreCost": {
+        "shiny": 3300,
+        "glowy": 600,
+        "starry": 120
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 25,
+      "dmg": 115,
+      "hp": 1309,
+      "effect": {
+        "cooldownTime": 6,
+        "damagePerHit": 750
+      },
+      "oreCost": {
+        "shiny": 3400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 26,
+      "dmg": 120,
+      "hp": 1345,
+      "effect": {
+        "cooldownTime": 6,
+        "damagePerHit": 750
+      },
+      "oreCost": {
+        "shiny": 3500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 27,
+      "dmg": 125,
+      "hp": 1381,
+      "effect": {
+        "cooldownTime": 5,
+        "damagePerHit": 850
+      },
+      "oreCost": {
+        "shiny": 3600,
+        "glowy": 600,
+        "starry": 150
+      },
+      "blacksmithLevel": 9
+    }
+  ]
+}

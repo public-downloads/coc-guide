@@ -1,0 +1,294 @@
+{
+  "id": "flame-blower",
+  "name": "Flame Blower",
+  "hero": "dragon-duke",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Flame Blower — Active common equipment for the Dragon Duke."
+  },
+  "effectKeys": [
+    "abilityDamage"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Flame_Blower (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "abilityDamage": 1300
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 150
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 700,
+      "effect": {
+        "abilityDamage": 1300
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 250,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 900,
+      "effect": {
+        "abilityDamage": 1375
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "hpRecovery": 350,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 1100,
+      "effect": {
+        "abilityDamage": 1375
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 450,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 1300,
+      "effect": {
+        "abilityDamage": 1375
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 550,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 1500,
+      "effect": {
+        "abilityDamage": 1500
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "hpRecovery": 650,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 1700,
+      "effect": {
+        "abilityDamage": 1500
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 750,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 1850,
+      "effect": {
+        "abilityDamage": 1500
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 850,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 2000,
+      "effect": {
+        "abilityDamage": 1750
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "hpRecovery": 950,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 2150,
+      "effect": {
+        "abilityDamage": 1750
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1050,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 2300,
+      "effect": {
+        "abilityDamage": 1750
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1150,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 2450,
+      "effect": {
+        "abilityDamage": 2000
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "hpRecovery": 1250,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 2600,
+      "effect": {
+        "abilityDamage": 2000
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1300,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 2750,
+      "effect": {
+        "abilityDamage": 2000
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1350,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 2900,
+      "effect": {
+        "abilityDamage": 2250
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 1400,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 3000,
+      "effect": {
+        "abilityDamage": 2250
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1450,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 3050,
+      "effect": {
+        "abilityDamage": 2250
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1500,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 3100,
+      "effect": {
+        "abilityDamage": 2500
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 1500,
+      "blacksmithLevel": 7
+    }
+  ]
+}

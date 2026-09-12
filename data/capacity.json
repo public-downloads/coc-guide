@@ -1,0 +1,284 @@
+{
+  "_note": "Capacity per BUILDING level. Total camp capacity at a Town Hall is campsPerTownHall x the best camp level that Town Hall allows. Spell slots are the Spell Factory plus the Dark Spell Factory.",
+  "campsPerTownHall": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 3,
+    "6": 3,
+    "7": 4,
+    "8": 4,
+    "9": 4,
+    "10": 4,
+    "11": 4,
+    "12": 4,
+    "13": 4,
+    "14": 4,
+    "15": 4,
+    "16": 4,
+    "17": 4,
+    "18": 4
+  },
+  "armyCamp": [
+    {
+      "level": 1,
+      "troopCapacity": 20,
+      "townHall": 1
+    },
+    {
+      "level": 2,
+      "troopCapacity": 30,
+      "townHall": 2
+    },
+    {
+      "level": 3,
+      "troopCapacity": 35,
+      "townHall": 3
+    },
+    {
+      "level": 4,
+      "troopCapacity": 40,
+      "townHall": 4
+    },
+    {
+      "level": 5,
+      "troopCapacity": 45,
+      "townHall": 5
+    },
+    {
+      "level": 6,
+      "troopCapacity": 50,
+      "townHall": 6
+    },
+    {
+      "level": 7,
+      "troopCapacity": 55,
+      "townHall": 9
+    },
+    {
+      "level": 8,
+      "troopCapacity": 60,
+      "townHall": 10
+    },
+    {
+      "level": 9,
+      "troopCapacity": 65,
+      "townHall": 11
+    },
+    {
+      "level": 10,
+      "troopCapacity": 70,
+      "townHall": 12
+    },
+    {
+      "level": 11,
+      "troopCapacity": 75,
+      "townHall": 13
+    },
+    {
+      "level": 12,
+      "troopCapacity": 80,
+      "townHall": 15
+    },
+    {
+      "level": 13,
+      "troopCapacity": 85,
+      "townHall": 17
+    },
+    {
+      "level": 14,
+      "troopCapacity": 88,
+      "townHall": 18
+    }
+  ],
+  "spellFactory": [
+    {
+      "level": 1,
+      "spellCapacity": 2,
+      "townHall": 5
+    },
+    {
+      "level": 2,
+      "spellCapacity": 4,
+      "townHall": 6
+    },
+    {
+      "level": 3,
+      "spellCapacity": 6,
+      "townHall": 7
+    },
+    {
+      "level": 4,
+      "spellCapacity": 8,
+      "townHall": 9
+    },
+    {
+      "level": 5,
+      "spellCapacity": 10,
+      "townHall": 10
+    },
+    {
+      "level": 6,
+      "spellCapacity": 10,
+      "townHall": 11
+    },
+    {
+      "level": 7,
+      "spellCapacity": 10,
+      "townHall": 13
+    },
+    {
+      "level": 8,
+      "spellCapacity": 10,
+      "townHall": 15
+    },
+    {
+      "level": 9,
+      "spellCapacity": 10,
+      "townHall": 16
+    }
+  ],
+  "darkSpellFactory": [
+    {
+      "level": 1,
+      "spellCapacity": 1,
+      "townHall": 8
+    },
+    {
+      "level": 2,
+      "spellCapacity": 1,
+      "townHall": 8
+    },
+    {
+      "level": 3,
+      "spellCapacity": 1,
+      "townHall": 9
+    },
+    {
+      "level": 4,
+      "spellCapacity": 1,
+      "townHall": 9
+    },
+    {
+      "level": 5,
+      "spellCapacity": 1,
+      "townHall": 10
+    },
+    {
+      "level": 6,
+      "spellCapacity": 1,
+      "townHall": 12
+    },
+    {
+      "level": 7,
+      "spellCapacity": 1,
+      "townHall": 14
+    },
+    {
+      "level": 8,
+      "spellCapacity": 1,
+      "townHall": 15
+    }
+  ],
+  "clanCastle": [
+    {
+      "level": 1,
+      "troopCapacity": 10,
+      "spellCapacity": 0,
+      "siegeCapacity": 0,
+      "townHall": 2
+    },
+    {
+      "level": 2,
+      "troopCapacity": 15,
+      "spellCapacity": 0,
+      "siegeCapacity": 0,
+      "townHall": 4
+    },
+    {
+      "level": 3,
+      "troopCapacity": 20,
+      "spellCapacity": 0,
+      "siegeCapacity": 0,
+      "townHall": 6
+    },
+    {
+      "level": 4,
+      "troopCapacity": 25,
+      "spellCapacity": 1,
+      "siegeCapacity": 0,
+      "townHall": 8
+    },
+    {
+      "level": 5,
+      "troopCapacity": 30,
+      "spellCapacity": 1,
+      "siegeCapacity": 0,
+      "townHall": 9
+    },
+    {
+      "level": 6,
+      "troopCapacity": 35,
+      "spellCapacity": 1,
+      "siegeCapacity": 1,
+      "townHall": 10
+    },
+    {
+      "level": 7,
+      "troopCapacity": 35,
+      "spellCapacity": 2,
+      "siegeCapacity": 1,
+      "townHall": 11
+    },
+    {
+      "level": 8,
+      "troopCapacity": 40,
+      "spellCapacity": 2,
+      "siegeCapacity": 1,
+      "townHall": 12
+    },
+    {
+      "level": 9,
+      "troopCapacity": 45,
+      "spellCapacity": 2,
+      "siegeCapacity": 1,
+      "townHall": 13
+    },
+    {
+      "level": 10,
+      "troopCapacity": 45,
+      "spellCapacity": 3,
+      "siegeCapacity": 1,
+      "townHall": 14
+    },
+    {
+      "level": 11,
+      "troopCapacity": 50,
+      "spellCapacity": 3,
+      "siegeCapacity": 1,
+      "townHall": 15
+    },
+    {
+      "level": 12,
+      "troopCapacity": 50,
+      "spellCapacity": 3,
+      "siegeCapacity": 2,
+      "townHall": 16
+    },
+    {
+      "level": 13,
+      "troopCapacity": 55,
+      "spellCapacity": 3,
+      "siegeCapacity": 2,
+      "townHall": 17
+    },
+    {
+      "level": 14,
+      "troopCapacity": 55,
+      "spellCapacity": 4,
+      "siegeCapacity": 2,
+      "townHall": 18
+    }
+  ]
+}

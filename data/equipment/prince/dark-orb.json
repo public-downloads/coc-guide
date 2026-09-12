@@ -1,0 +1,20 @@
+{
+  "id": "dark-orb",
+  "name": "Dark Orb",
+  "hero": "minion-prince",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "stub",
+  "ability": {
+    "kind": "passive",
+    "description": "Dark Orb — epic equipment. Ability not compiled yet."
+  },
+  "effectKeys": [],
+  "sources": [],
+  "notes": [
+    "Stub: rarity confirmed epic by the project owner; no level table compiled.",
+    "ability.kind is a placeholder — the schema requires one and passive is the least-committal. Set it properly when the numbers are filled in."
+  ],
+  "levels": []
+}

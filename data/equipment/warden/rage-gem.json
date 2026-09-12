@@ -1,0 +1,296 @@
+{
+  "id": "rage-gem",
+  "name": "Rage Gem",
+  "hero": "grand-warden",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "Rage Gem — Passive common equipment for the Grand Warden."
+  },
+  "effectKeys": [
+    "damageIncrease",
+    "attackSpeedIncrease"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Rage_Gem (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 12,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 15,
+        "attackSpeedIncrease": 5
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 2,
+      "dmg": 14,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 15,
+        "attackSpeedIncrease": 6
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 3,
+      "dmg": 16,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 20,
+        "attackSpeedIncrease": 7
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 4,
+      "dmg": 18,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 20,
+        "attackSpeedIncrease": 8
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 5,
+      "dmg": 20,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 20,
+        "attackSpeedIncrease": 9
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 6,
+      "dmg": 22,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 25,
+        "attackSpeedIncrease": 10
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 7,
+      "dmg": 24,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 25,
+        "attackSpeedIncrease": 11
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 8,
+      "dmg": 26,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 25,
+        "attackSpeedIncrease": 12
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 9,
+      "dmg": 30,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 30,
+        "attackSpeedIncrease": 13
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 10,
+      "dmg": 36,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 30,
+        "attackSpeedIncrease": 14
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 11,
+      "dmg": 43,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 30,
+        "attackSpeedIncrease": 15
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 12,
+      "dmg": 49,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 35,
+        "attackSpeedIncrease": 16
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 4
+    },
+    {
+      "lvl": 13,
+      "dmg": 56,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 35,
+        "attackSpeedIncrease": 17
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 62,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 35,
+        "attackSpeedIncrease": 18
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 69,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 45,
+        "attackSpeedIncrease": 19
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 75,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 45,
+        "attackSpeedIncrease": 20
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 82,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 45,
+        "attackSpeedIncrease": 21
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 88,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 50,
+        "attackSpeedIncrease": 22
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

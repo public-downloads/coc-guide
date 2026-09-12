@@ -1,0 +1,295 @@
+{
+  "id": "electro-fangs",
+  "name": "Electro Fangs",
+  "hero": "dragon-duke",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "Electro Fangs — Passive common equipment for the Dragon Duke."
+  },
+  "effectKeys": [
+    "damagePerHit",
+    "numberOfTargets"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Electro_Fangs (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 400,
+      "effect": {
+        "damagePerHit": 330,
+        "numberOfTargets": 1
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      }
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 650,
+      "effect": {
+        "damagePerHit": 330,
+        "numberOfTargets": 1
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 850,
+      "effect": {
+        "damagePerHit": 340,
+        "numberOfTargets": 2
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 1000,
+      "effect": {
+        "damagePerHit": 340,
+        "numberOfTargets": 2
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 1150,
+      "effect": {
+        "damagePerHit": 340,
+        "numberOfTargets": 2
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 1300,
+      "effect": {
+        "damagePerHit": 350,
+        "numberOfTargets": 2
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 1450,
+      "effect": {
+        "damagePerHit": 350,
+        "numberOfTargets": 2
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 1600,
+      "effect": {
+        "damagePerHit": 350,
+        "numberOfTargets": 2
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 1750,
+      "effect": {
+        "damagePerHit": 360,
+        "numberOfTargets": 3
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 1900,
+      "effect": {
+        "damagePerHit": 360,
+        "numberOfTargets": 3
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 2000,
+      "effect": {
+        "damagePerHit": 360,
+        "numberOfTargets": 3
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 2100,
+      "effect": {
+        "damagePerHit": 370,
+        "numberOfTargets": 3
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 2200,
+      "effect": {
+        "damagePerHit": 370,
+        "numberOfTargets": 3
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 2275,
+      "effect": {
+        "damagePerHit": 370,
+        "numberOfTargets": 3
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 2325,
+      "effect": {
+        "damagePerHit": 380,
+        "numberOfTargets": 4
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 2375,
+      "effect": {
+        "damagePerHit": 380,
+        "numberOfTargets": 4
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 2400,
+      "effect": {
+        "damagePerHit": 380,
+        "numberOfTargets": 4
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 2400,
+      "effect": {
+        "damagePerHit": 400,
+        "numberOfTargets": 4
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 10
+    }
+  ]
+}

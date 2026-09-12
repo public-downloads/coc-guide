@@ -1,0 +1,295 @@
+{
+  "id": "life-gem",
+  "name": "Life Gem",
+  "hero": "grand-warden",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "Life Gem — Passive common equipment for the Grand Warden."
+  },
+  "effectKeys": [
+    "hpIncrease",
+    "maxHpIncrease"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Life_Gem (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 11,
+      "hp": 170,
+      "effect": {
+        "hpIncrease": 50,
+        "maxHpIncrease": 640
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      }
+    },
+    {
+      "lvl": 2,
+      "dmg": 13,
+      "hp": 184,
+      "effect": {
+        "hpIncrease": 50,
+        "maxHpIncrease": 640
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 16,
+      "hp": 195,
+      "effect": {
+        "hpIncrease": 60,
+        "maxHpIncrease": 750
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 19,
+      "hp": 205,
+      "effect": {
+        "hpIncrease": 60,
+        "maxHpIncrease": 750
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 21,
+      "hp": 217,
+      "effect": {
+        "hpIncrease": 60,
+        "maxHpIncrease": 750
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 23,
+      "hp": 230,
+      "effect": {
+        "hpIncrease": 75,
+        "maxHpIncrease": 830
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 25,
+      "hp": 255,
+      "effect": {
+        "hpIncrease": 75,
+        "maxHpIncrease": 830
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 27,
+      "hp": 282,
+      "effect": {
+        "hpIncrease": 75,
+        "maxHpIncrease": 830
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 32,
+      "hp": 311,
+      "effect": {
+        "hpIncrease": 90,
+        "maxHpIncrease": 930
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 36,
+      "hp": 344,
+      "effect": {
+        "hpIncrease": 90,
+        "maxHpIncrease": 930
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 43,
+      "hp": 381,
+      "effect": {
+        "hpIncrease": 90,
+        "maxHpIncrease": 930
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 47,
+      "hp": 398,
+      "effect": {
+        "hpIncrease": 100,
+        "maxHpIncrease": 1010
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 53,
+      "hp": 415,
+      "effect": {
+        "hpIncrease": 100,
+        "maxHpIncrease": 1010
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 57,
+      "hp": 432,
+      "effect": {
+        "hpIncrease": 100,
+        "maxHpIncrease": 1010
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 61,
+      "hp": 449,
+      "effect": {
+        "hpIncrease": 110,
+        "maxHpIncrease": 1120
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 66,
+      "hp": 466,
+      "effect": {
+        "hpIncrease": 110,
+        "maxHpIncrease": 1120
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 70,
+      "hp": 483,
+      "effect": {
+        "hpIncrease": 110,
+        "maxHpIncrease": 1120
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 75,
+      "hp": 500,
+      "effect": {
+        "hpIncrease": 120,
+        "maxHpIncrease": 1200
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

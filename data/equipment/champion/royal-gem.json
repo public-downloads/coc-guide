@@ -1,0 +1,276 @@
+{
+  "id": "royal-gem",
+  "name": "Royal Gem",
+  "hero": "royal-champion",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Royal Gem — Active common equipment for the Royal Champion."
+  },
+  "effectKeys": [
+    "healthRecovery"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Royal_Gem (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 35,
+      "hp": 60,
+      "effect": {
+        "healthRecovery": 1200
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      }
+    },
+    {
+      "lvl": 2,
+      "dmg": 40,
+      "hp": 90,
+      "effect": {
+        "healthRecovery": 1200
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 45,
+      "hp": 120,
+      "effect": {
+        "healthRecovery": 1450
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 50,
+      "hp": 150,
+      "effect": {
+        "healthRecovery": 1450
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 55,
+      "hp": 180,
+      "effect": {
+        "healthRecovery": 1450
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 60,
+      "hp": 210,
+      "effect": {
+        "healthRecovery": 1600
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 65,
+      "hp": 240,
+      "effect": {
+        "healthRecovery": 1600
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 70,
+      "hp": 270,
+      "effect": {
+        "healthRecovery": 1600
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 75,
+      "hp": 300,
+      "effect": {
+        "healthRecovery": 1800
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 80,
+      "hp": 330,
+      "effect": {
+        "healthRecovery": 1800
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 85,
+      "hp": 360,
+      "effect": {
+        "healthRecovery": 1800
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 90,
+      "hp": 390,
+      "effect": {
+        "healthRecovery": 2000
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 95,
+      "hp": 420,
+      "effect": {
+        "healthRecovery": 2000
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 100,
+      "hp": 450,
+      "effect": {
+        "healthRecovery": 2000
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 105,
+      "hp": 480,
+      "effect": {
+        "healthRecovery": 2200
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 110,
+      "hp": 510,
+      "effect": {
+        "healthRecovery": 2200
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 115,
+      "hp": 540,
+      "effect": {
+        "healthRecovery": 2200
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 120,
+      "hp": 570,
+      "effect": {
+        "healthRecovery": 2400
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "id": "electro-boots",
+  "name": "Electro Boots",
+  "hero": "royal-champion",
+  "rarity": "epic",
+  "maxLevel": 27,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "Electro Boots — Passive epic equipment for the Royal Champion."
+  },
+  "effectKeys": [
+    "auraDamagePerSecond",
+    "auraDamagePerHit",
+    "selfHealingPerSecond"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Electro_Boots (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 50,
+      "effect": {
+        "auraDamagePerSecond": 132,
+        "auraDamagePerHit": 52.8,
+        "selfHealingPerSecond": 6
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 75,
+      "effect": {
+        "auraDamagePerSecond": 132,
+        "auraDamagePerHit": 52.8,
+        "selfHealingPerSecond": 8
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 100,
+      "effect": {
+        "auraDamagePerSecond": 140,
+        "auraDamagePerHit": 56,
+        "selfHealingPerSecond": 10
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 125,
+      "effect": {
+        "auraDamagePerSecond": 140,
+        "auraDamagePerHit": 56,
+        "selfHealingPerSecond": 12
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 150,
+      "effect": {
+        "auraDamagePerSecond": 140,
+        "auraDamagePerHit": 56,
+        "selfHealingPerSecond": 14
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 175,
+      "effect": {
+        "auraDamagePerSecond": 147,
+        "auraDamagePerHit": 58.8,
+        "selfHealingPerSecond": 16
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 200,
+      "effect": {
+        "auraDamagePerSecond": 147,
+        "auraDamagePerHit": 58.8,
+        "selfHealingPerSecond": 18
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 225,
+      "effect": {
+        "auraDamagePerSecond": 147,
+        "auraDamagePerHit": 58.8,
+        "selfHealingPerSecond": 20
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 250,
+      "effect": {
+        "auraDamagePerSecond": 155,
+        "auraDamagePerHit": 62,
+        "selfHealingPerSecond": 22
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 10
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 275,
+      "effect": {
+        "auraDamagePerSecond": 155,
+        "auraDamagePerHit": 62,
+        "selfHealingPerSecond": 24
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 300,
+      "effect": {
+        "auraDamagePerSecond": 155,
+        "auraDamagePerHit": 62,
+        "selfHealingPerSecond": 26
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 325,
+      "effect": {
+        "auraDamagePerSecond": 162,
+        "auraDamagePerHit": 64.8,
+        "selfHealingPerSecond": 28
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 20
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 350,
+      "effect": {
+        "auraDamagePerSecond": 162,
+        "auraDamagePerHit": 64.8,
+        "selfHealingPerSecond": 30
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 375,
+      "effect": {
+        "auraDamagePerSecond": 162,
+        "auraDamagePerHit": 64.8,
+        "selfHealingPerSecond": 32
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 400,
+      "effect": {
+        "auraDamagePerSecond": 170,
+        "auraDamagePerHit": 68,
+        "selfHealingPerSecond": 33
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 30
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 425,
+      "effect": {
+        "auraDamagePerSecond": 170,
+        "auraDamagePerHit": 68,
+        "selfHealingPerSecond": 34
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 450,
+      "effect": {
+        "auraDamagePerSecond": 170,
+        "auraDamagePerHit": 68,
+        "selfHealingPerSecond": 35
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 475,
+      "effect": {
+        "auraDamagePerSecond": 177,
+        "auraDamagePerHit": 70.8,
+        "selfHealingPerSecond": 36
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 50
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 19,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "auraDamagePerSecond": 177,
+        "auraDamagePerHit": 70.8,
+        "selfHealingPerSecond": 37
+      },
+      "oreCost": {
+        "shiny": 2800,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 20,
+      "dmg": 0,
+      "hp": 525,
+      "effect": {
+        "auraDamagePerSecond": 177,
+        "auraDamagePerHit": 70.8,
+        "selfHealingPerSecond": 38
+      },
+      "oreCost": {
+        "shiny": 2900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 21,
+      "dmg": 0,
+      "hp": 550,
+      "effect": {
+        "auraDamagePerSecond": 185,
+        "auraDamagePerHit": 74,
+        "selfHealingPerSecond": 39
+      },
+      "oreCost": {
+        "shiny": 3000,
+        "glowy": 600,
+        "starry": 100
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 22,
+      "dmg": 0,
+      "hp": 575,
+      "effect": {
+        "auraDamagePerSecond": 185,
+        "auraDamagePerHit": 74,
+        "selfHealingPerSecond": 40
+      },
+      "oreCost": {
+        "shiny": 3100,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 23,
+      "dmg": 0,
+      "hp": 600,
+      "effect": {
+        "auraDamagePerSecond": 185,
+        "auraDamagePerHit": 74,
+        "selfHealingPerSecond": 41
+      },
+      "oreCost": {
+        "shiny": 3200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 24,
+      "dmg": 0,
+      "hp": 625,
+      "effect": {
+        "auraDamagePerSecond": 192,
+        "auraDamagePerHit": 76.8,
+        "selfHealingPerSecond": 42
+      },
+      "oreCost": {
+        "shiny": 3300,
+        "glowy": 600,
+        "starry": 120
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 25,
+      "dmg": 0,
+      "hp": 650,
+      "effect": {
+        "auraDamagePerSecond": 192,
+        "auraDamagePerHit": 76.8,
+        "selfHealingPerSecond": 43
+      },
+      "oreCost": {
+        "shiny": 3400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 26,
+      "dmg": 0,
+      "hp": 675,
+      "effect": {
+        "auraDamagePerSecond": 192,
+        "auraDamagePerHit": 76.8,
+        "selfHealingPerSecond": 44
+      },
+      "oreCost": {
+        "shiny": 3500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 27,
+      "dmg": 0,
+      "hp": 700,
+      "effect": {
+        "auraDamagePerSecond": 200,
+        "auraDamagePerHit": 80,
+        "selfHealingPerSecond": 45
+      },
+      "oreCost": {
+        "shiny": 3600,
+        "glowy": 600,
+        "starry": 150
+      },
+      "blacksmithLevel": 9
+    }
+  ]
+}

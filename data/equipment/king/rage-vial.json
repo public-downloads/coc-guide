@@ -1,0 +1,313 @@
+{
+  "id": "rage-vial",
+  "name": "Rage Vial",
+  "hero": "barbarian-king",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Rage Vial — Active common equipment for the Barbarian King."
+  },
+  "effectKeys": [
+    "damageIncrease",
+    "movementSpeedIncrease"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Rage_Vial (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 17,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 120,
+        "movementSpeedIncrease": 18
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 150
+    },
+    {
+      "lvl": 2,
+      "dmg": 22,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 120,
+        "movementSpeedIncrease": 18
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 225,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 27,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 130,
+        "movementSpeedIncrease": 22.3
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "hpRecovery": 300,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 32,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 130,
+        "movementSpeedIncrease": 22.3
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 375,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 37,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 130,
+        "movementSpeedIncrease": 22.3
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 450,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 42,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 135,
+        "movementSpeedIncrease": 25.5
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "hpRecovery": 525,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 48,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 135,
+        "movementSpeedIncrease": 25.5
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 600,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 54,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 135,
+        "movementSpeedIncrease": 25.5
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 675,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 60,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 140,
+        "movementSpeedIncrease": 28.7
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "hpRecovery": 780,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 66,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 140,
+        "movementSpeedIncrease": 28.7
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 900,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 72,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 140,
+        "movementSpeedIncrease": 28.7
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1020,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 79,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 145,
+        "movementSpeedIncrease": 32
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "hpRecovery": 1155,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 86,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 145,
+        "movementSpeedIncrease": 32
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1290,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 94,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 145,
+        "movementSpeedIncrease": 32
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1410,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 104,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 150,
+        "movementSpeedIncrease": 35.1
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 1590,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 112,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 150,
+        "movementSpeedIncrease": 35.1
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1695,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 120,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 150,
+        "movementSpeedIncrease": 35.1
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1800,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 128,
+      "hp": 0,
+      "effect": {
+        "damageIncrease": 155,
+        "movementSpeedIncrease": 38.3
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 1890,
+      "blacksmithLevel": 7
+    }
+  ]
+}

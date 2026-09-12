@@ -1,0 +1,1606 @@
+{
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Buildings (CC BY-SA)"
+  ],
+  "notes": [
+    "Footprints are read from each building's wiki page and are real; `weight` is not a game stat but this project's opinion of how much an ability line is worth for crossing that building.",
+    "Weights are tiered by what a defence does to an attack rather than by its damage number: Air Defense, Eagle Artillery and Spell Tower at the top because they are what an air or hero attack dies to, then the heavy splash and single-target buildings, and Mortar and Bomb Tower near the bottom because a hero walks through both. `lib/practice/scoring.ts` holds the rules layered on top.",
+    "`auraRadius` is a real game number, unlike `weight`. Only the Spell Tower has one — its aura reaches well past its 2x2 footprint, so a line that comes close still counts for something.",
+    "Non-square buildings are excluded; the trainer assumes square footprints.",
+    "Walls are 1x1 and placed in bulk; they are a normal placeable type here.",
+    "availableAt / maxLevelAt are per Town Hall level, read from each building's wiki page. Types without them (event and merged buildings) are never hidden by the Town Hall filter.",
+    "Crafted defences rotate: only three exist per season and only one may stand in a village at a time. `retired: true` marks ones from past seasons — they stay in this list so existing share links keep decoding, but the trainer hides them.",
+    "From TH16 the game merges pairs of defences into stronger ones and consumes the sources: 2 Cannons -> Ricochet Cannon, 2 Archer Towers -> Multi-Archer Tower, 2 Wizard Towers -> Super Wizard Tower, 1 Cannon + 1 Archer Tower -> Multi-Gear Tower. `mergedFrom` records the recipe and lib/practice/limits.ts spends the source counts, so availableAt stays the unmerged maximum it is on the wiki.",
+    "`concealed` marks a building the attacker cannot see until it fires. Only the Hidden Tesla has it; the isometric board leaves those out while everything else about them is normal."
+  ],
+  "types": [
+    {
+      "id": "town-hall",
+      "name": "Town Hall",
+      "size": 4,
+      "category": "core",
+      "weight": 12,
+      "availableAt": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      }
+    },
+    {
+      "id": "air-defense",
+      "name": "Air Defense",
+      "size": 3,
+      "category": "defence",
+      "weight": 14,
+      "availableAt": {
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "7": 3,
+        "8": 3,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      },
+      "maxLevelAt": {
+        "4": 2,
+        "5": 3,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 10,
+        "13": 11,
+        "14": 12,
+        "15": 13,
+        "16": 14,
+        "17": 15,
+        "18": 16
+      }
+    },
+    {
+      "id": "eagle-artillery",
+      "name": "Eagle Artillery",
+      "size": 4,
+      "category": "defence",
+      "weight": 13,
+      "availableAt": {
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1
+      },
+      "maxLevelAt": {
+        "11": 2,
+        "12": 3,
+        "13": 4,
+        "14": 5,
+        "15": 6,
+        "16": 7,
+        "17": 7
+      }
+    },
+    {
+      "id": "inferno-tower",
+      "name": "Inferno Tower",
+      "size": 2,
+      "category": "defence",
+      "weight": 11,
+      "availableAt": {
+        "10": 2,
+        "11": 2,
+        "12": 3,
+        "13": 3,
+        "14": 3,
+        "15": 3,
+        "16": 3,
+        "17": 3,
+        "18": 3
+      }
+    },
+    {
+      "id": "monolith",
+      "name": "Monolith",
+      "size": 3,
+      "category": "defence",
+      "weight": 11,
+      "availableAt": {
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "15": 2,
+        "16": 3,
+        "17": 4,
+        "18": 5
+      }
+    },
+    {
+      "id": "scattershot",
+      "name": "Scattershot",
+      "size": 3,
+      "category": "defence",
+      "weight": 11,
+      "availableAt": {
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 2
+      },
+      "maxLevelAt": {
+        "13": 2,
+        "14": 3,
+        "15": 4,
+        "16": 5,
+        "17": 6,
+        "18": 7
+      }
+    },
+    {
+      "id": "clan-castle",
+      "name": "Clan Castle",
+      "size": 3,
+      "category": "defence",
+      "weight": 9,
+      "availableAt": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 3,
+        "7": 3,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 8,
+        "13": 9,
+        "14": 10,
+        "15": 11,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      }
+    },
+    {
+      "id": "spell-tower",
+      "name": "Spell Tower",
+      "size": 2,
+      "category": "defence",
+      "weight": 12,
+      "auraRadius": 7,
+      "availableAt": {
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 2
+      },
+      "maxLevelAt": {
+        "15": 3,
+        "16": 3,
+        "17": 4,
+        "18": 4
+      }
+    },
+    {
+      "id": "super-wizard-tower",
+      "name": "Super Wizard Tower",
+      "size": 3,
+      "category": "defence",
+      "weight": 9,
+      "mergedFrom": {
+        "wizard-tower": 2
+      },
+      "availableAt": {
+        "18": 2
+      },
+      "maxLevelAt": {
+        "18": 2
+      }
+    },
+    {
+      "id": "x-bow",
+      "name": "X-Bow",
+      "size": 3,
+      "category": "defence",
+      "weight": 9,
+      "availableAt": {
+        "9": 2,
+        "10": 3,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      },
+      "maxLevelAt": {
+        "9": 3,
+        "10": 4,
+        "11": 5,
+        "12": 6,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      }
+    },
+    {
+      "id": "firespitter",
+      "name": "Firespitter",
+      "size": 3,
+      "category": "defence",
+      "weight": 8,
+      "availableAt": {
+        "17": 2,
+        "18": 2
+      },
+      "maxLevelAt": {
+        "17": 2,
+        "18": 3
+      }
+    },
+    {
+      "id": "hidden-tesla",
+      "name": "Hidden Tesla",
+      "size": 2,
+      "category": "defence",
+      "weight": 6,
+      "concealed": true,
+      "availableAt": {
+        "7": 2,
+        "8": 3,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 5,
+        "13": 5,
+        "14": 5,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 5
+      },
+      "maxLevelAt": {
+        "7": 3,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 10,
+        "13": 12,
+        "14": 13,
+        "15": 14,
+        "16": 15,
+        "17": 16,
+        "18": 17
+      }
+    },
+    {
+      "id": "multi-archer-tower",
+      "name": "Multi-Archer Tower",
+      "size": 3,
+      "category": "defence",
+      "weight": 6,
+      "mergedFrom": {
+        "archer-tower": 2
+      },
+      "availableAt": {
+        "16": 2,
+        "17": 3,
+        "18": 3
+      },
+      "maxLevelAt": {
+        "16": 2,
+        "17": 3,
+        "18": 4
+      }
+    },
+    {
+      "id": "multi-gear-tower",
+      "name": "Multi-Gear Tower",
+      "size": 3,
+      "category": "defence",
+      "weight": 8,
+      "mergedFrom": {
+        "cannon": 1,
+        "archer-tower": 1
+      },
+      "availableAt": {
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "17": 2,
+        "18": 3
+      }
+    },
+    {
+      "id": "ricochet-cannon",
+      "name": "Ricochet Cannon",
+      "size": 3,
+      "category": "defence",
+      "weight": 8,
+      "mergedFrom": {
+        "cannon": 2
+      },
+      "availableAt": {
+        "16": 2,
+        "17": 3,
+        "18": 3
+      },
+      "maxLevelAt": {
+        "16": 2,
+        "17": 3,
+        "18": 4
+      }
+    },
+    {
+      "id": "wizard-tower",
+      "name": "Wizard Tower",
+      "size": 3,
+      "category": "defence",
+      "weight": 5,
+      "availableAt": {
+        "5": 1,
+        "6": 2,
+        "7": 2,
+        "8": 3,
+        "9": 4,
+        "10": 4,
+        "11": 5,
+        "12": 5,
+        "13": 5,
+        "14": 5,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 6
+      },
+      "maxLevelAt": {
+        "5": 2,
+        "6": 3,
+        "7": 4,
+        "8": 6,
+        "9": 7,
+        "10": 9,
+        "11": 10,
+        "12": 11,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 17
+      }
+    },
+    {
+      "id": "air-bombs",
+      "name": "Air Bombs",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "archer-tower",
+      "name": "Archer Tower",
+      "size": 3,
+      "category": "defence",
+      "weight": 5,
+      "availableAt": {
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "15": 8,
+        "16": 8,
+        "17": 9,
+        "18": 9
+      },
+      "maxLevelAt": {
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 10,
+        "9": 11,
+        "10": 13,
+        "11": 15,
+        "12": 17,
+        "13": 19,
+        "14": 20,
+        "15": 21,
+        "16": 21,
+        "17": 21,
+        "18": 21
+      }
+    },
+    {
+      "id": "bomb-hive",
+      "name": "Bomb Hive",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "bomb-tower",
+      "name": "Bomb Tower",
+      "size": 3,
+      "category": "defence",
+      "weight": 3,
+      "availableAt": {
+        "8": 1,
+        "9": 1,
+        "10": 2,
+        "11": 2,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 2
+      },
+      "maxLevelAt": {
+        "8": 2,
+        "9": 3,
+        "10": 4,
+        "11": 6,
+        "12": 7,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      }
+    },
+    {
+      "id": "cake-a-pult",
+      "name": "Cake-A-Pult",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "11": 1,
+        "12": 2,
+        "13": 3,
+        "14": 4,
+        "15": 5,
+        "16": 6,
+        "17": 7,
+        "18": 10
+      },
+      "crafted": true
+    },
+    {
+      "id": "cannon",
+      "name": "Cannon",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 5,
+        "8": 5,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 7,
+        "16": 7,
+        "17": 7,
+        "18": 7
+      },
+      "maxLevelAt": {
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 10,
+        "9": 11,
+        "10": 13,
+        "11": 15,
+        "12": 17,
+        "13": 19,
+        "14": 20,
+        "15": 21,
+        "16": 21,
+        "17": 21,
+        "18": 21
+      }
+    },
+    {
+      "id": "crusher-mortar",
+      "name": "Crusher Mortar",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "17": 1,
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "flame-spinner",
+      "name": "Flame Spinner",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "17": 1,
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "hero-hunter",
+      "name": "Hero Hunter",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "11": 1,
+        "12": 2,
+        "13": 3,
+        "14": 4,
+        "15": 5,
+        "16": 6,
+        "17": 7,
+        "18": 10
+      },
+      "crafted": true
+    },
+    {
+      "id": "hook-tower",
+      "name": "Hook Tower",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "17": 1,
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "hot-candle",
+      "name": "Hot Candle",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "11": 1,
+        "12": 2,
+        "13": 3,
+        "14": 4,
+        "15": 5,
+        "16": 6,
+        "17": 7,
+        "18": 10
+      },
+      "crafted": true
+    },
+    {
+      "id": "lava-launcher",
+      "name": "Lava Launcher",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "light-beam",
+      "name": "Light Beam",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "mortar",
+      "name": "Mortar",
+      "size": 3,
+      "category": "defence",
+      "weight": 3,
+      "availableAt": {
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "7": 3,
+        "8": 4,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      },
+      "maxLevelAt": {
+        "3": 1,
+        "4": 2,
+        "5": 3,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 10,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18
+      }
+    },
+    {
+      "id": "revenge-tower",
+      "name": "Revenge Tower",
+      "size": 3,
+      "category": "defence",
+      "weight": 6,
+      "availableAt": {
+        "18": 1
+      },
+      "maxLevelAt": {
+        "18": 2
+      }
+    },
+    {
+      "id": "roaster",
+      "name": "Roaster",
+      "size": 3,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "air-sweeper",
+      "name": "Air Sweeper",
+      "size": 2,
+      "category": "defence",
+      "weight": 4,
+      "availableAt": {
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 2,
+        "10": 2,
+        "11": 2,
+        "12": 2,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2,
+        "17": 2,
+        "18": 2
+      },
+      "maxLevelAt": {
+        "6": 2,
+        "7": 3,
+        "8": 4,
+        "9": 5,
+        "10": 6,
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 7,
+        "16": 7,
+        "17": 7,
+        "18": 7
+      }
+    },
+    {
+      "id": "dark-elixir-drill",
+      "name": "Dark Elixir Drill",
+      "size": 3,
+      "category": "resource",
+      "weight": 2,
+      "availableAt": {
+        "7": 1,
+        "8": 2,
+        "9": 3,
+        "10": 3,
+        "11": 3,
+        "12": 3,
+        "13": 3,
+        "14": 3,
+        "15": 3,
+        "16": 3,
+        "17": 3,
+        "18": 3
+      },
+      "maxLevelAt": {
+        "7": 3,
+        "8": 3,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 9,
+        "14": 10,
+        "15": 10,
+        "16": 11,
+        "17": 11,
+        "18": 11
+      }
+    },
+    {
+      "id": "dark-elixir-storage",
+      "name": "Dark Elixir Storage",
+      "size": 3,
+      "category": "resource",
+      "weight": 2,
+      "availableAt": {
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "7": 2,
+        "8": 4,
+        "9": 6,
+        "10": 6,
+        "11": 6,
+        "12": 7,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "18": 13
+      }
+    },
+    {
+      "id": "elixir-collector",
+      "name": "Elixir Collector",
+      "size": 3,
+      "category": "resource",
+      "weight": 2,
+      "availableAt": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 7,
+        "10": 7,
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 7,
+        "16": 7,
+        "17": 7,
+        "18": 7
+      },
+      "maxLevelAt": {
+        "1": 2,
+        "2": 4,
+        "3": 6,
+        "4": 8,
+        "5": 10,
+        "6": 10,
+        "7": 11,
+        "8": 12,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 15,
+        "14": 16,
+        "15": 16,
+        "16": 17,
+        "17": 17,
+        "18": 17
+      }
+    },
+    {
+      "id": "elixir-storage",
+      "name": "Elixir Storage",
+      "size": 3,
+      "category": "resource",
+      "weight": 2,
+      "availableAt": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 3,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      },
+      "maxLevelAt": {
+        "1": 1,
+        "2": 3,
+        "3": 6,
+        "4": 8,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 12,
+        "12": 13,
+        "13": 14,
+        "14": 15,
+        "15": 16,
+        "16": 17,
+        "17": 18,
+        "18": 19
+      }
+    },
+    {
+      "id": "gold-mine",
+      "name": "Gold Mine",
+      "size": 3,
+      "category": "resource",
+      "weight": 2,
+      "availableAt": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 7,
+        "10": 7,
+        "11": 7,
+        "12": 7,
+        "13": 7,
+        "14": 7,
+        "15": 7,
+        "16": 7,
+        "17": 7,
+        "18": 7
+      },
+      "maxLevelAt": {
+        "1": 2,
+        "2": 4,
+        "3": 6,
+        "4": 8,
+        "5": 10,
+        "6": 10,
+        "7": 11,
+        "8": 12,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 15,
+        "14": 16,
+        "15": 16,
+        "16": 17,
+        "17": 17,
+        "18": 17
+      }
+    },
+    {
+      "id": "gold-storage",
+      "name": "Gold Storage",
+      "size": 3,
+      "category": "resource",
+      "weight": 2,
+      "availableAt": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 3,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      },
+      "maxLevelAt": {
+        "1": 1,
+        "2": 3,
+        "3": 6,
+        "4": 8,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 11,
+        "9": 11,
+        "10": 11,
+        "11": 12,
+        "12": 13,
+        "13": 14,
+        "14": 15,
+        "15": 16,
+        "16": 17,
+        "17": 18,
+        "18": 19
+      }
+    },
+    {
+      "id": "army-camp",
+      "name": "Army Camp",
+      "size": 4,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 4,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      },
+      "maxLevelAt": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 10,
+        "13": 11,
+        "14": 11,
+        "15": 12,
+        "16": 12,
+        "17": 13,
+        "18": 14
+      }
+    },
+    {
+      "id": "b-o-b-s-hut",
+      "name": "B.O.B's Hut",
+      "size": 2,
+      "category": "other",
+      "weight": 1,
+      "availableAt": {
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      }
+    },
+    {
+      "id": "barracks",
+      "name": "Barracks",
+      "size": 3,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "1": 3,
+        "2": 4,
+        "3": 5,
+        "4": 6,
+        "5": 7,
+        "6": 8,
+        "7": 9,
+        "8": 10,
+        "9": 11,
+        "10": 12,
+        "11": 13,
+        "12": 14,
+        "13": 15,
+        "14": 16,
+        "15": 17,
+        "16": 18,
+        "17": 19,
+        "18": 19
+      }
+    },
+    {
+      "id": "blacksmith",
+      "name": "Blacksmith",
+      "size": 3,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      }
+    },
+    {
+      "id": "builder-s-hut",
+      "name": "Builder's Hut",
+      "size": 2,
+      "category": "other",
+      "weight": 1,
+      "availableAt": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 5,
+        "7": 5,
+        "8": 5,
+        "9": 5,
+        "10": 5,
+        "11": 5,
+        "12": 5,
+        "13": 5,
+        "14": 5,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 5
+      },
+      "maxLevelAt": {
+        "14": 4,
+        "15": 5,
+        "16": 6,
+        "17": 7,
+        "18": 8
+      }
+    },
+    {
+      "id": "crafting-station",
+      "name": "Crafting Station",
+      "size": 3,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "retired": true
+    },
+    {
+      "id": "dark-barracks",
+      "name": "Dark Barracks",
+      "size": 3,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "7": 2,
+        "8": 4,
+        "9": 6,
+        "10": 7,
+        "11": 8,
+        "12": 9,
+        "13": 10,
+        "14": 11,
+        "15": 12,
+        "16": 13,
+        "17": 13,
+        "18": 13
+      }
+    },
+    {
+      "id": "dark-spell-factory",
+      "name": "Dark Spell Factory",
+      "size": 3,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      }
+    },
+    {
+      "id": "helper-hut",
+      "name": "Helper Hut",
+      "size": 3,
+      "category": "other",
+      "weight": 1,
+      "availableAt": {
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      }
+    },
+    {
+      "id": "hero-bell",
+      "name": "Hero Bell",
+      "size": 3,
+      "category": "other",
+      "weight": 1,
+      "availableAt": {
+        "18": 1
+      },
+      "crafted": true,
+      "retired": true
+    },
+    {
+      "id": "hero-hall",
+      "name": "Hero Hall",
+      "size": 4,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "7": 1,
+        "8": 2,
+        "9": 3,
+        "10": 4,
+        "11": 5,
+        "12": 6,
+        "13": 7,
+        "14": 8,
+        "15": 9,
+        "16": 10,
+        "17": 11,
+        "18": 12
+      }
+    },
+    {
+      "id": "laboratory",
+      "name": "Laboratory",
+      "size": 3,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "3": 1,
+        "4": 2,
+        "5": 3,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 10,
+        "13": 11,
+        "14": 12,
+        "15": 13,
+        "16": 14,
+        "17": 15,
+        "18": 16
+      }
+    },
+    {
+      "id": "master-builder-s-hut",
+      "name": "Master Builder's Hut",
+      "size": 2,
+      "category": "other",
+      "weight": 1,
+      "availableAt": {
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "retired": true
+    },
+    {
+      "id": "pet-house",
+      "name": "Pet House",
+      "size": 3,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "14": 4,
+        "15": 8,
+        "16": 10,
+        "17": 11,
+        "18": 12
+      }
+    },
+    {
+      "id": "spell-factory",
+      "name": "Spell Factory",
+      "size": 3,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      }
+    },
+    {
+      "id": "wall",
+      "name": "Wall",
+      "size": 1,
+      "category": "wall",
+      "weight": 1,
+      "availableAt": {
+        "2": 25,
+        "3": 50,
+        "4": 75,
+        "5": 100,
+        "6": 125,
+        "7": 175,
+        "8": 225,
+        "9": 250,
+        "10": 275,
+        "11": 300,
+        "12": 300,
+        "13": 300,
+        "14": 325,
+        "15": 325,
+        "16": 325,
+        "17": 325,
+        "18": 325
+      },
+      "maxLevelAt": {
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 10,
+        "10": 11,
+        "11": 12,
+        "12": 13,
+        "13": 14,
+        "14": 15,
+        "15": 16,
+        "16": 17,
+        "17": 18,
+        "18": 19
+      }
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop",
+      "size": 4,
+      "category": "army",
+      "weight": 1,
+      "availableAt": {
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1
+      },
+      "maxLevelAt": {
+        "12": 3,
+        "13": 5,
+        "14": 6,
+        "15": 7,
+        "16": 8,
+        "17": 9,
+        "18": 9
+      }
+    },
+    {
+      "id": "hero-banner",
+      "name": "Hero Banner",
+      "size": 2,
+      "category": "other",
+      "weight": 0,
+      "availableAt": {
+        "7": 1,
+        "8": 1,
+        "9": 2,
+        "10": 2,
+        "11": 3,
+        "12": 3,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4
+      }
+    },
+    {
+      "id": "giga-bomb",
+      "name": "Giga Bomb",
+      "size": 2,
+      "category": "defence",
+      "weight": 0,
+      "availableAt": {
+        "17": 1,
+        "18": 1
+      }
+    }
+  ]
+}

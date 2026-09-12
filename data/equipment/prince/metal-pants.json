@@ -1,0 +1,314 @@
+{
+  "id": "metal-pants",
+  "name": "Metal Pants",
+  "hero": "minion-prince",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "duration",
+    "description": "Metal Pants — Active common equipment for the Minion Prince."
+  },
+  "effectKeys": [
+    "abilityDuration",
+    "incomingDamageReduction"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Metal_Pants (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 850,
+      "effect": {
+        "abilityDuration": 9,
+        "incomingDamageReduction": 46
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1600,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 900,
+      "effect": {
+        "abilityDuration": 9,
+        "incomingDamageReduction": 46
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1675,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 950,
+      "effect": {
+        "abilityDuration": 10,
+        "incomingDamageReduction": 50
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "hpRecovery": 1750,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 1000,
+      "effect": {
+        "abilityDuration": 10,
+        "incomingDamageReduction": 50
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1800,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 1050,
+      "effect": {
+        "abilityDuration": 10,
+        "incomingDamageReduction": 50
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1850,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 1100,
+      "effect": {
+        "abilityDuration": 11,
+        "incomingDamageReduction": 54
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "hpRecovery": 1900,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 1150,
+      "effect": {
+        "abilityDuration": 11,
+        "incomingDamageReduction": 54
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1950,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 1200,
+      "effect": {
+        "abilityDuration": 11,
+        "incomingDamageReduction": 54
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 2000,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 1250,
+      "effect": {
+        "abilityDuration": 12,
+        "incomingDamageReduction": 58
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "hpRecovery": 2050,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 1300,
+      "effect": {
+        "abilityDuration": 12,
+        "incomingDamageReduction": 58
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 2100,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 1350,
+      "effect": {
+        "abilityDuration": 12,
+        "incomingDamageReduction": 58
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 2150,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 1400,
+      "effect": {
+        "abilityDuration": 13,
+        "incomingDamageReduction": 62
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "hpRecovery": 2200,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 1450,
+      "effect": {
+        "abilityDuration": 13,
+        "incomingDamageReduction": 62
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 2250,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 1500,
+      "effect": {
+        "abilityDuration": 13,
+        "incomingDamageReduction": 62
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 2300,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 1550,
+      "effect": {
+        "abilityDuration": 14,
+        "incomingDamageReduction": 66
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 2350,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 1600,
+      "effect": {
+        "abilityDuration": 14,
+        "incomingDamageReduction": 66
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 2400,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 1650,
+      "effect": {
+        "abilityDuration": 14,
+        "incomingDamageReduction": 66
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 2450,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 1700,
+      "effect": {
+        "abilityDuration": 15,
+        "incomingDamageReduction": 70
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 2500,
+      "blacksmithLevel": 7
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "id": "magic-mirror",
+  "name": "Magic Mirror",
+  "hero": "archer-queen",
+  "rarity": "epic",
+  "maxLevel": 27,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "duration",
+    "description": "Magic Mirror — Active epic equipment for the Archer Queen."
+  },
+  "effectKeys": [
+    "clones",
+    "cloneDuration",
+    "cloneDps",
+    "cloneHealth"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Magic_Mirror (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 88,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 20,
+        "cloneDps": 136,
+        "cloneHealth": 580
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 198,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 96,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 20,
+        "cloneDps": 136,
+        "cloneHealth": 580
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 229,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 113,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 20,
+        "cloneDps": 206,
+        "cloneHealth": 873
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "hpRecovery": 250,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 131,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 20,
+        "cloneDps": 206,
+        "cloneHealth": 873
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 271,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 157,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 20,
+        "cloneDps": 206,
+        "cloneHealth": 873
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 294,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 184,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 20,
+        "cloneDps": 276,
+        "cloneHealth": 1166
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "hpRecovery": 317,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 228,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 20,
+        "cloneDps": 276,
+        "cloneHealth": 1166
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 344,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 272,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 20,
+        "cloneDps": 276,
+        "cloneHealth": 1166
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 372,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 307,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 346,
+        "cloneHealth": 1459
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 10
+      },
+      "hpRecovery": 397,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 342,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 346,
+        "cloneHealth": 1459
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 423,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 377,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 346,
+        "cloneHealth": 1459
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 448,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 412,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 416,
+        "cloneHealth": 1752
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 20
+      },
+      "hpRecovery": 474,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 448,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 416,
+        "cloneHealth": 1752
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 498,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 483,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 416,
+        "cloneHealth": 1752
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 529,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 518,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 486,
+        "cloneHealth": 2045
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 30
+      },
+      "hpRecovery": 560,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 553,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 486,
+        "cloneHealth": 2045
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 591,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 588,
+      "effect": {
+        "clones": 1,
+        "cloneDuration": 25,
+        "cloneDps": 486,
+        "cloneHealth": 2045
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 622,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 624,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 556,
+        "cloneHealth": 2338
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 50
+      },
+      "hpRecovery": 652,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 19,
+      "dmg": 0,
+      "hp": 650,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 556,
+        "cloneHealth": 2338
+      },
+      "oreCost": {
+        "shiny": 2800,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 679,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 20,
+      "dmg": 0,
+      "hp": 676,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 556,
+        "cloneHealth": 2338
+      },
+      "oreCost": {
+        "shiny": 2900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 706,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 21,
+      "dmg": 0,
+      "hp": 703,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 626,
+        "cloneHealth": 2631
+      },
+      "oreCost": {
+        "shiny": 3000,
+        "glowy": 600,
+        "starry": 100
+      },
+      "hpRecovery": 732,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 22,
+      "dmg": 0,
+      "hp": 729,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 626,
+        "cloneHealth": 2631
+      },
+      "oreCost": {
+        "shiny": 3100,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 759,
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 23,
+      "dmg": 0,
+      "hp": 756,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 626,
+        "cloneHealth": 2631
+      },
+      "oreCost": {
+        "shiny": 3200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 784,
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 24,
+      "dmg": 0,
+      "hp": 782,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 696,
+        "cloneHealth": 2924
+      },
+      "oreCost": {
+        "shiny": 3300,
+        "glowy": 600,
+        "starry": 120
+      },
+      "hpRecovery": 811,
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 25,
+      "dmg": 0,
+      "hp": 808,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 696,
+        "cloneHealth": 2924
+      },
+      "oreCost": {
+        "shiny": 3400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 838,
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 26,
+      "dmg": 0,
+      "hp": 835,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 25,
+        "cloneDps": 696,
+        "cloneHealth": 2924
+      },
+      "oreCost": {
+        "shiny": 3500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 864,
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 27,
+      "dmg": 0,
+      "hp": 861,
+      "effect": {
+        "clones": 2,
+        "cloneDuration": 30,
+        "cloneDps": 765,
+        "cloneHealth": 3216
+      },
+      "oreCost": {
+        "shiny": 3600,
+        "glowy": 600,
+        "starry": 150
+      },
+      "hpRecovery": 891,
+      "blacksmithLevel": 9
+    }
+  ]
+}

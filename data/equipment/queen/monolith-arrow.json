@@ -1,0 +1,487 @@
+{
+  "id": "monolith-arrow",
+  "name": "Monolith Arrow",
+  "hero": "archer-queen",
+  "rarity": "epic",
+  "maxLevel": 27,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "Monolith Arrow — Passive epic equipment for the Archer Queen."
+  },
+  "effectKeys": [
+    "highestExtraDamageBelow180HousingSpace",
+    "extraDamage181250HousingSpace",
+    "extraDamage251HousingSpace",
+    "incomingDamageReduction"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Monolith_Arrow (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 100,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 9.5,
+        "extraDamage181250HousingSpace": 7,
+        "extraDamage251HousingSpace": 4,
+        "incomingDamageReduction": 3
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 140,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 9.5,
+        "extraDamage181250HousingSpace": 7,
+        "extraDamage251HousingSpace": 4,
+        "incomingDamageReduction": 3
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 180,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 10,
+        "extraDamage181250HousingSpace": 7.5,
+        "extraDamage251HousingSpace": 4.1,
+        "incomingDamageReduction": 3
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 220,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 10,
+        "extraDamage181250HousingSpace": 7.5,
+        "extraDamage251HousingSpace": 4.1,
+        "incomingDamageReduction": 3
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 260,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 10,
+        "extraDamage181250HousingSpace": 7.5,
+        "extraDamage251HousingSpace": 4.1,
+        "incomingDamageReduction": 3
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 300,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 10.5,
+        "extraDamage181250HousingSpace": 8,
+        "extraDamage251HousingSpace": 4.2,
+        "incomingDamageReduction": 3
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 340,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 10.5,
+        "extraDamage181250HousingSpace": 8,
+        "extraDamage251HousingSpace": 4.2,
+        "incomingDamageReduction": 3
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 380,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 10.5,
+        "extraDamage181250HousingSpace": 8,
+        "extraDamage251HousingSpace": 4.2,
+        "incomingDamageReduction": 3
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 420,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 11,
+        "extraDamage181250HousingSpace": 8.5,
+        "extraDamage251HousingSpace": 4.3,
+        "incomingDamageReduction": 4
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 10
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 460,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 11,
+        "extraDamage181250HousingSpace": 8.5,
+        "extraDamage251HousingSpace": 4.3,
+        "incomingDamageReduction": 4
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 11,
+        "extraDamage181250HousingSpace": 8.5,
+        "extraDamage251HousingSpace": 4.3,
+        "incomingDamageReduction": 4
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 540,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 11.5,
+        "extraDamage181250HousingSpace": 9,
+        "extraDamage251HousingSpace": 4.4,
+        "incomingDamageReduction": 5
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 20
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 580,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 11.5,
+        "extraDamage181250HousingSpace": 9,
+        "extraDamage251HousingSpace": 4.4,
+        "incomingDamageReduction": 5
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 620,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 11.5,
+        "extraDamage181250HousingSpace": 9,
+        "extraDamage251HousingSpace": 4.4,
+        "incomingDamageReduction": 5
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 680,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 12,
+        "extraDamage181250HousingSpace": 9.2,
+        "extraDamage251HousingSpace": 4.5,
+        "incomingDamageReduction": 6
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 30
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 700,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 12,
+        "extraDamage181250HousingSpace": 9.2,
+        "extraDamage251HousingSpace": 4.5,
+        "incomingDamageReduction": 6
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 740,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 12,
+        "extraDamage181250HousingSpace": 9.2,
+        "extraDamage251HousingSpace": 4.5,
+        "incomingDamageReduction": 6
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 780,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 12.5,
+        "extraDamage181250HousingSpace": 9.4,
+        "extraDamage251HousingSpace": 4.6,
+        "incomingDamageReduction": 7
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 50
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 19,
+      "dmg": 0,
+      "hp": 820,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 12.5,
+        "extraDamage181250HousingSpace": 9.4,
+        "extraDamage251HousingSpace": 4.6,
+        "incomingDamageReduction": 7
+      },
+      "oreCost": {
+        "shiny": 2800,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 20,
+      "dmg": 0,
+      "hp": 860,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 12.5,
+        "extraDamage181250HousingSpace": 9.4,
+        "extraDamage251HousingSpace": 4.6,
+        "incomingDamageReduction": 7
+      },
+      "oreCost": {
+        "shiny": 2900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 21,
+      "dmg": 0,
+      "hp": 900,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 13,
+        "extraDamage181250HousingSpace": 9.6,
+        "extraDamage251HousingSpace": 4.7,
+        "incomingDamageReduction": 8
+      },
+      "oreCost": {
+        "shiny": 3000,
+        "glowy": 600,
+        "starry": 100
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 22,
+      "dmg": 0,
+      "hp": 940,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 13,
+        "extraDamage181250HousingSpace": 9.6,
+        "extraDamage251HousingSpace": 4.7,
+        "incomingDamageReduction": 8
+      },
+      "oreCost": {
+        "shiny": 3100,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 23,
+      "dmg": 0,
+      "hp": 980,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 13,
+        "extraDamage181250HousingSpace": 9.6,
+        "extraDamage251HousingSpace": 4.7,
+        "incomingDamageReduction": 8
+      },
+      "oreCost": {
+        "shiny": 3200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 24,
+      "dmg": 0,
+      "hp": 1020,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 13.5,
+        "extraDamage181250HousingSpace": 9.8,
+        "extraDamage251HousingSpace": 4.8,
+        "incomingDamageReduction": 9
+      },
+      "oreCost": {
+        "shiny": 3300,
+        "glowy": 600,
+        "starry": 120
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 25,
+      "dmg": 0,
+      "hp": 1080,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 13.5,
+        "extraDamage181250HousingSpace": 9.8,
+        "extraDamage251HousingSpace": 4.8,
+        "incomingDamageReduction": 9
+      },
+      "oreCost": {
+        "shiny": 3400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 26,
+      "dmg": 0,
+      "hp": 1120,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 13.5,
+        "extraDamage181250HousingSpace": 9.8,
+        "extraDamage251HousingSpace": 4.8,
+        "incomingDamageReduction": 9
+      },
+      "oreCost": {
+        "shiny": 3500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 27,
+      "dmg": 0,
+      "hp": 1160,
+      "effect": {
+        "highestExtraDamageBelow180HousingSpace": 14,
+        "extraDamage181250HousingSpace": 10,
+        "extraDamage251HousingSpace": 5,
+        "incomingDamageReduction": 10
+      },
+      "oreCost": {
+        "shiny": 3600,
+        "glowy": 600,
+        "starry": 150
+      },
+      "blacksmithLevel": 9
+    }
+  ]
+}

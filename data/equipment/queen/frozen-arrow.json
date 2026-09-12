@@ -1,0 +1,430 @@
+{
+  "id": "frozen-arrow",
+  "name": "Frozen Arrow",
+  "hero": "archer-queen",
+  "rarity": "epic",
+  "maxLevel": 27,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "The Archer Queen's attacks slow the targets they hit for a short time. Always on — no activation."
+  },
+  "effectKeys": [
+    "slowDown",
+    "slowDownDuration"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Frozen_Arrow (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 35,
+      "hp": 0,
+      "effect": {
+        "slowDown": 25,
+        "slowDownDuration": 0.75
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 40,
+      "hp": 0,
+      "effect": {
+        "slowDown": 25,
+        "slowDownDuration": 1
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 45,
+      "hp": 0,
+      "effect": {
+        "slowDown": 30,
+        "slowDownDuration": 1
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 50,
+      "hp": 0,
+      "effect": {
+        "slowDown": 30,
+        "slowDownDuration": 1
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 55,
+      "hp": 0,
+      "effect": {
+        "slowDown": 30,
+        "slowDownDuration": 1.25
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 60,
+      "hp": 0,
+      "effect": {
+        "slowDown": 35,
+        "slowDownDuration": 1.25
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 66,
+      "hp": 0,
+      "effect": {
+        "slowDown": 35,
+        "slowDownDuration": 1.25
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 72,
+      "hp": 0,
+      "effect": {
+        "slowDown": 35,
+        "slowDownDuration": 1.5
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 78,
+      "hp": 0,
+      "effect": {
+        "slowDown": 37,
+        "slowDownDuration": 1.5
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 10
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 85,
+      "hp": 0,
+      "effect": {
+        "slowDown": 37,
+        "slowDownDuration": 1.5
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 11,
+      "dmg": 92,
+      "hp": 0,
+      "effect": {
+        "slowDown": 37,
+        "slowDownDuration": 1.75
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 12,
+      "dmg": 99,
+      "hp": 0,
+      "effect": {
+        "slowDown": 40,
+        "slowDownDuration": 1.75
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 20
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 13,
+      "dmg": 105,
+      "hp": 0,
+      "effect": {
+        "slowDown": 40,
+        "slowDownDuration": 1.75
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 14,
+      "dmg": 111,
+      "hp": 0,
+      "effect": {
+        "slowDown": 40,
+        "slowDownDuration": 2
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 15,
+      "dmg": 117,
+      "hp": 0,
+      "effect": {
+        "slowDown": 45,
+        "slowDownDuration": 2
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 30
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 16,
+      "dmg": 122,
+      "hp": 0,
+      "effect": {
+        "slowDown": 45,
+        "slowDownDuration": 2
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 17,
+      "dmg": 127,
+      "hp": 0,
+      "effect": {
+        "slowDown": 45,
+        "slowDownDuration": 2.25
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 18,
+      "dmg": 132,
+      "hp": 0,
+      "effect": {
+        "slowDown": 50,
+        "slowDownDuration": 2.25
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 50
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 19,
+      "dmg": 136,
+      "hp": 0,
+      "effect": {
+        "slowDown": 50,
+        "slowDownDuration": 2.25
+      },
+      "oreCost": {
+        "shiny": 2800,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 20,
+      "dmg": 140,
+      "hp": 0,
+      "effect": {
+        "slowDown": 50,
+        "slowDownDuration": 2.5
+      },
+      "oreCost": {
+        "shiny": 2900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 21,
+      "dmg": 144,
+      "hp": 0,
+      "effect": {
+        "slowDown": 55,
+        "slowDownDuration": 2.5
+      },
+      "oreCost": {
+        "shiny": 3000,
+        "glowy": 600,
+        "starry": 100
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 22,
+      "dmg": 148,
+      "hp": 0,
+      "effect": {
+        "slowDown": 55,
+        "slowDownDuration": 2.5
+      },
+      "oreCost": {
+        "shiny": 3100,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 23,
+      "dmg": 152,
+      "hp": 0,
+      "effect": {
+        "slowDown": 55,
+        "slowDownDuration": 2.75
+      },
+      "oreCost": {
+        "shiny": 3200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 24,
+      "dmg": 156,
+      "hp": 0,
+      "effect": {
+        "slowDown": 60,
+        "slowDownDuration": 2.75
+      },
+      "oreCost": {
+        "shiny": 3300,
+        "glowy": 600,
+        "starry": 120
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 25,
+      "dmg": 160,
+      "hp": 0,
+      "effect": {
+        "slowDown": 60,
+        "slowDownDuration": 2.75
+      },
+      "oreCost": {
+        "shiny": 3400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 26,
+      "dmg": 164,
+      "hp": 0,
+      "effect": {
+        "slowDown": 60,
+        "slowDownDuration": 3
+      },
+      "oreCost": {
+        "shiny": 3500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 27,
+      "dmg": 168,
+      "hp": 0,
+      "effect": {
+        "slowDown": 65,
+        "slowDownDuration": 3
+      },
+      "oreCost": {
+        "shiny": 3600,
+        "glowy": 600,
+        "starry": 150
+      },
+      "blacksmithLevel": 9
+    }
+  ]
+}

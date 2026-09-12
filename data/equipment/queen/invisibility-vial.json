@@ -1,0 +1,295 @@
+{
+  "id": "invisibility-vial",
+  "name": "Invisibility Vial",
+  "hero": "archer-queen",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "duration",
+    "description": "Invisibility Vial — Active common equipment for the Archer Queen."
+  },
+  "effectKeys": [
+    "abilityDuration",
+    "damagePerShotIncrease"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Invisibility_Vial (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 80,
+      "effect": {
+        "abilityDuration": 4.2,
+        "damagePerShotIncrease": 340
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      }
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 100,
+      "effect": {
+        "abilityDuration": 4.2,
+        "damagePerShotIncrease": 440
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 120,
+      "effect": {
+        "abilityDuration": 4.8,
+        "damagePerShotIncrease": 540
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 140,
+      "effect": {
+        "abilityDuration": 4.8,
+        "damagePerShotIncrease": 640
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 170,
+      "effect": {
+        "abilityDuration": 4.8,
+        "damagePerShotIncrease": 730
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 200,
+      "effect": {
+        "abilityDuration": 5.4,
+        "damagePerShotIncrease": 820
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 250,
+      "effect": {
+        "abilityDuration": 5.4,
+        "damagePerShotIncrease": 920
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 300,
+      "effect": {
+        "abilityDuration": 5.4,
+        "damagePerShotIncrease": 1020
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 340,
+      "effect": {
+        "abilityDuration": 6,
+        "damagePerShotIncrease": 1120
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 380,
+      "effect": {
+        "abilityDuration": 6,
+        "damagePerShotIncrease": 1220
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 420,
+      "effect": {
+        "abilityDuration": 6,
+        "damagePerShotIncrease": 1310
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 460,
+      "effect": {
+        "abilityDuration": 6.6,
+        "damagePerShotIncrease": 1370
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 500,
+      "effect": {
+        "abilityDuration": 6.6,
+        "damagePerShotIncrease": 1430
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 540,
+      "effect": {
+        "abilityDuration": 6.6,
+        "damagePerShotIncrease": 1490
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 580,
+      "effect": {
+        "abilityDuration": 7.2,
+        "damagePerShotIncrease": 1560
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 620,
+      "effect": {
+        "abilityDuration": 7.2,
+        "damagePerShotIncrease": 1620
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 660,
+      "effect": {
+        "abilityDuration": 7.2,
+        "damagePerShotIncrease": 1680
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 700,
+      "effect": {
+        "abilityDuration": 7.8,
+        "damagePerShotIncrease": 1740
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

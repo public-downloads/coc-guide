@@ -1,0 +1,429 @@
+{
+  "id": "rocket-backpack",
+  "name": "Rocket Backpack",
+  "hero": "dragon-duke",
+  "rarity": "epic",
+  "maxLevel": 27,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "The Dragon Duke dashes in a straight line through the centre of the village to the far edge, breathing fire along the path. Untargetable during the dash."
+  },
+  "effectKeys": [
+    "abilityDamage"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Rocket_Backpack (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 20,
+      "hp": 900,
+      "effect": {
+        "abilityDamage": 575
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 300,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 23,
+      "hp": 988,
+      "effect": {
+        "abilityDamage": 575
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 380,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 26,
+      "hp": 1077,
+      "effect": {
+        "abilityDamage": 750
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "hpRecovery": 460,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 29,
+      "hp": 1165,
+      "effect": {
+        "abilityDamage": 750
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 540,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 32,
+      "hp": 1254,
+      "effect": {
+        "abilityDamage": 750
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 620,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 35,
+      "hp": 1342,
+      "effect": {
+        "abilityDamage": 950
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "hpRecovery": 700,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 38,
+      "hp": 1431,
+      "effect": {
+        "abilityDamage": 950
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 780,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 41,
+      "hp": 1519,
+      "effect": {
+        "abilityDamage": 950
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 860,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 44,
+      "hp": 1608,
+      "effect": {
+        "abilityDamage": 1125
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 10
+      },
+      "hpRecovery": 940,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 47,
+      "hp": 1696,
+      "effect": {
+        "abilityDamage": 1125
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1020,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 11,
+      "dmg": 50,
+      "hp": 1785,
+      "effect": {
+        "abilityDamage": 1125
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1100,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 12,
+      "dmg": 53,
+      "hp": 1873,
+      "effect": {
+        "abilityDamage": 1325
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 20
+      },
+      "hpRecovery": 1180,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 13,
+      "dmg": 56,
+      "hp": 1962,
+      "effect": {
+        "abilityDamage": 1325
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1260,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 14,
+      "dmg": 59,
+      "hp": 2050,
+      "effect": {
+        "abilityDamage": 1325
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1340,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 15,
+      "dmg": 62,
+      "hp": 2139,
+      "effect": {
+        "abilityDamage": 1500
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 30
+      },
+      "hpRecovery": 1420,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 16,
+      "dmg": 64,
+      "hp": 2227,
+      "effect": {
+        "abilityDamage": 1500
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1500,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 17,
+      "dmg": 66,
+      "hp": 2316,
+      "effect": {
+        "abilityDamage": 1500
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1580,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 18,
+      "dmg": 68,
+      "hp": 2404,
+      "effect": {
+        "abilityDamage": 1700
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 50
+      },
+      "hpRecovery": 1660,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 19,
+      "dmg": 70,
+      "hp": 2493,
+      "effect": {
+        "abilityDamage": 1700
+      },
+      "oreCost": {
+        "shiny": 2800,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1740,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 20,
+      "dmg": 72,
+      "hp": 2581,
+      "effect": {
+        "abilityDamage": 1700
+      },
+      "oreCost": {
+        "shiny": 2900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1800,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 21,
+      "dmg": 74,
+      "hp": 2670,
+      "effect": {
+        "abilityDamage": 1875
+      },
+      "oreCost": {
+        "shiny": 3000,
+        "glowy": 600,
+        "starry": 100
+      },
+      "hpRecovery": 1860,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 22,
+      "dmg": 76,
+      "hp": 2758,
+      "effect": {
+        "abilityDamage": 1875
+      },
+      "oreCost": {
+        "shiny": 3100,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1910,
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 23,
+      "dmg": 78,
+      "hp": 2847,
+      "effect": {
+        "abilityDamage": 1875
+      },
+      "oreCost": {
+        "shiny": 3200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1950,
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 24,
+      "dmg": 80,
+      "hp": 2935,
+      "effect": {
+        "abilityDamage": 2050
+      },
+      "oreCost": {
+        "shiny": 3300,
+        "glowy": 600,
+        "starry": 120
+      },
+      "hpRecovery": 1975,
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 25,
+      "dmg": 82,
+      "hp": 3024,
+      "effect": {
+        "abilityDamage": 2050
+      },
+      "oreCost": {
+        "shiny": 3400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1990,
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 26,
+      "dmg": 84,
+      "hp": 3112,
+      "effect": {
+        "abilityDamage": 2050
+      },
+      "oreCost": {
+        "shiny": 3500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1995,
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 27,
+      "dmg": 86,
+      "hp": 3200,
+      "effect": {
+        "abilityDamage": 2150
+      },
+      "oreCost": {
+        "shiny": 3600,
+        "glowy": 600,
+        "starry": 150
+      },
+      "hpRecovery": 2000,
+      "blacksmithLevel": 9
+    }
+  ]
+}

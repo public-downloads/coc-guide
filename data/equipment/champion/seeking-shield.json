@@ -1,0 +1,276 @@
+{
+  "id": "seeking-shield",
+  "name": "Seeking Shield",
+  "hero": "royal-champion",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Seeking Shield — Active common equipment for the Royal Champion."
+  },
+  "effectKeys": [
+    "projectileDamagePerTarget"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Seeking_Shield (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 40,
+      "effect": {
+        "projectileDamagePerTarget": 1000
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      }
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 60,
+      "effect": {
+        "projectileDamagePerTarget": 1000
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 80,
+      "effect": {
+        "projectileDamagePerTarget": 1250
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 100,
+      "effect": {
+        "projectileDamagePerTarget": 1250
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 120,
+      "effect": {
+        "projectileDamagePerTarget": 1250
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 140,
+      "effect": {
+        "projectileDamagePerTarget": 1500
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 160,
+      "effect": {
+        "projectileDamagePerTarget": 1500
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 180,
+      "effect": {
+        "projectileDamagePerTarget": 1500
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 200,
+      "effect": {
+        "projectileDamagePerTarget": 1750
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 220,
+      "effect": {
+        "projectileDamagePerTarget": 1750
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 240,
+      "effect": {
+        "projectileDamagePerTarget": 1750
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 260,
+      "effect": {
+        "projectileDamagePerTarget": 2000
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 280,
+      "effect": {
+        "projectileDamagePerTarget": 2000
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 300,
+      "effect": {
+        "projectileDamagePerTarget": 2000
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 320,
+      "effect": {
+        "projectileDamagePerTarget": 2250
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 340,
+      "effect": {
+        "projectileDamagePerTarget": 2250
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 360,
+      "effect": {
+        "projectileDamagePerTarget": 2250
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 380,
+      "effect": {
+        "projectileDamagePerTarget": 2500
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "dragon-duke",
+  "name": "Dragon Duke",
+  "maxLevel": 25,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Dragon_Duke (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "dps is the wiki's Damage per Second and hp its Hitpoints, both before equipment."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dps": 304,
+      "hp": 9100
+    },
+    {
+      "lvl": 2,
+      "dps": 308,
+      "hp": 9175
+    },
+    {
+      "lvl": 3,
+      "dps": 312,
+      "hp": 9250
+    },
+    {
+      "lvl": 4,
+      "dps": 316,
+      "hp": 9325
+    },
+    {
+      "lvl": 5,
+      "dps": 320,
+      "hp": 9400
+    },
+    {
+      "lvl": 6,
+      "dps": 324,
+      "hp": 9475
+    },
+    {
+      "lvl": 7,
+      "dps": 328,
+      "hp": 9550
+    },
+    {
+      "lvl": 8,
+      "dps": 332,
+      "hp": 9625
+    },
+    {
+      "lvl": 9,
+      "dps": 336,
+      "hp": 9700
+    },
+    {
+      "lvl": 10,
+      "dps": 340,
+      "hp": 9775
+    },
+    {
+      "lvl": 11,
+      "dps": 344,
+      "hp": 9850
+    },
+    {
+      "lvl": 12,
+      "dps": 348,
+      "hp": 9925
+    },
+    {
+      "lvl": 13,
+      "dps": 352,
+      "hp": 10000
+    },
+    {
+      "lvl": 14,
+      "dps": 356,
+      "hp": 10075
+    },
+    {
+      "lvl": 15,
+      "dps": 360,
+      "hp": 10150
+    },
+    {
+      "lvl": 16,
+      "dps": 364,
+      "hp": 10225
+    },
+    {
+      "lvl": 17,
+      "dps": 368,
+      "hp": 10300
+    },
+    {
+      "lvl": 18,
+      "dps": 372,
+      "hp": 10375
+    },
+    {
+      "lvl": 19,
+      "dps": 376,
+      "hp": 10450
+    },
+    {
+      "lvl": 20,
+      "dps": 380,
+      "hp": 10525
+    },
+    {
+      "lvl": 21,
+      "dps": 384,
+      "hp": 10600
+    },
+    {
+      "lvl": 22,
+      "dps": 388,
+      "hp": 10675
+    },
+    {
+      "lvl": 23,
+      "dps": 392,
+      "hp": 10750
+    },
+    {
+      "lvl": 24,
+      "dps": 396,
+      "hp": 10825
+    },
+    {
+      "lvl": 25,
+      "dps": 400,
+      "hp": 10900
+    }
+  ]
+}

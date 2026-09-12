@@ -1,0 +1,296 @@
+{
+  "id": "earthquake-boots",
+  "name": "Earthquake Boots",
+  "hero": "barbarian-king",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Earthquake Boots — Active common equipment for the Barbarian King."
+  },
+  "effectKeys": [
+    "buildingDamage",
+    "troopDamage"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Earthquake_Boots (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 13,
+      "hp": 209,
+      "effect": {
+        "buildingDamage": 10,
+        "troopDamage": 5
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 15,
+      "hp": 244,
+      "effect": {
+        "buildingDamage": 10,
+        "troopDamage": 5
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 17,
+      "hp": 278,
+      "effect": {
+        "buildingDamage": 20,
+        "troopDamage": 10
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 19,
+      "hp": 313,
+      "effect": {
+        "buildingDamage": 20,
+        "troopDamage": 10
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 21,
+      "hp": 348,
+      "effect": {
+        "buildingDamage": 20,
+        "troopDamage": 10
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 23,
+      "hp": 383,
+      "effect": {
+        "buildingDamage": 30,
+        "troopDamage": 15
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 26,
+      "hp": 418,
+      "effect": {
+        "buildingDamage": 30,
+        "troopDamage": 15
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 28,
+      "hp": 452,
+      "effect": {
+        "buildingDamage": 30,
+        "troopDamage": 15
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 32,
+      "hp": 522,
+      "effect": {
+        "buildingDamage": 34,
+        "troopDamage": 17
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 40,
+      "hp": 677,
+      "effect": {
+        "buildingDamage": 34,
+        "troopDamage": 17
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 48,
+      "hp": 831,
+      "effect": {
+        "buildingDamage": 34,
+        "troopDamage": 17
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 55,
+      "hp": 986,
+      "effect": {
+        "buildingDamage": 36,
+        "troopDamage": 18
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 63,
+      "hp": 1200,
+      "effect": {
+        "buildingDamage": 36,
+        "troopDamage": 18
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 71,
+      "hp": 1500,
+      "effect": {
+        "buildingDamage": 36,
+        "troopDamage": 18
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 79,
+      "hp": 1800,
+      "effect": {
+        "buildingDamage": 38,
+        "troopDamage": 19
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 86,
+      "hp": 2100,
+      "effect": {
+        "buildingDamage": 38,
+        "troopDamage": 19
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 94,
+      "hp": 2300,
+      "effect": {
+        "buildingDamage": 38,
+        "troopDamage": 19
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 102,
+      "hp": 2500,
+      "effect": {
+        "buildingDamage": 40,
+        "troopDamage": 20
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

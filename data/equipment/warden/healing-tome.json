@@ -1,0 +1,314 @@
+{
+  "id": "healing-tome",
+  "name": "Healing Tome",
+  "hero": "grand-warden",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "duration",
+    "description": "Healing Tome — Active common equipment for the Grand Warden."
+  },
+  "effectKeys": [
+    "healingPerSecond",
+    "abilityDuration"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Healing_Tome (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 92,
+      "effect": {
+        "healingPerSecond": 60,
+        "abilityDuration": 15
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 165,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 107,
+      "effect": {
+        "healingPerSecond": 60,
+        "abilityDuration": 15
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 193,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 122,
+      "effect": {
+        "healingPerSecond": 70,
+        "abilityDuration": 16
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "hpRecovery": 220,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 137,
+      "effect": {
+        "healingPerSecond": 70,
+        "abilityDuration": 16
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 248,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 153,
+      "effect": {
+        "healingPerSecond": 70,
+        "abilityDuration": 16
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 275,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 168,
+      "effect": {
+        "healingPerSecond": 80,
+        "abilityDuration": 17
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "hpRecovery": 303,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 183,
+      "effect": {
+        "healingPerSecond": 80,
+        "abilityDuration": 17
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 330,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 198,
+      "effect": {
+        "healingPerSecond": 80,
+        "abilityDuration": 17
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 358,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 229,
+      "effect": {
+        "healingPerSecond": 100,
+        "abilityDuration": 18
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "hpRecovery": 413,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 280,
+      "effect": {
+        "healingPerSecond": 100,
+        "abilityDuration": 18
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 463,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 330,
+      "effect": {
+        "healingPerSecond": 100,
+        "abilityDuration": 18
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 513,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 381,
+      "effect": {
+        "healingPerSecond": 120,
+        "abilityDuration": 19
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "hpRecovery": 563,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 432,
+      "effect": {
+        "healingPerSecond": 120,
+        "abilityDuration": 19
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 613,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 482,
+      "effect": {
+        "healingPerSecond": 120,
+        "abilityDuration": 19
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 663,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 533,
+      "effect": {
+        "healingPerSecond": 140,
+        "abilityDuration": 19.5
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 713,
+      "blacksmithLevel": 6
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 584,
+      "effect": {
+        "healingPerSecond": 140,
+        "abilityDuration": 19.5
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 763,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 634,
+      "effect": {
+        "healingPerSecond": 140,
+        "abilityDuration": 19.5
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 813,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 685,
+      "effect": {
+        "healingPerSecond": 150,
+        "abilityDuration": 20
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 863,
+      "blacksmithLevel": 7
+    }
+  ]
+}

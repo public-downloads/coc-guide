@@ -1,0 +1,332 @@
+{
+  "id": "barbarian-puppet",
+  "name": "Barbarian Puppet",
+  "hero": "barbarian-king",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Barbarian Puppet — Active common equipment for the Barbarian King."
+  },
+  "effectKeys": [
+    "summonedBarbarians",
+    "barbarianDamageIncrease",
+    "barbarianSpeedIncrease"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Barbarian_Puppet (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 309,
+      "effect": {
+        "summonedBarbarians": 8,
+        "barbarianDamageIncrease": 100,
+        "barbarianSpeedIncrease": 9.5
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 110
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 385,
+      "effect": {
+        "summonedBarbarians": 8,
+        "barbarianDamageIncrease": 100,
+        "barbarianSpeedIncrease": 9.5
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 165,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 467,
+      "effect": {
+        "summonedBarbarians": 16,
+        "barbarianDamageIncrease": 120,
+        "barbarianSpeedIncrease": 12.7
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "hpRecovery": 220,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 564,
+      "effect": {
+        "summonedBarbarians": 16,
+        "barbarianDamageIncrease": 120,
+        "barbarianSpeedIncrease": 12.7
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 275,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 649,
+      "effect": {
+        "summonedBarbarians": 16,
+        "barbarianDamageIncrease": 120,
+        "barbarianSpeedIncrease": 12.7
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 330,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 734,
+      "effect": {
+        "summonedBarbarians": 20,
+        "barbarianDamageIncrease": 140,
+        "barbarianSpeedIncrease": 16
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "hpRecovery": 385,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 836,
+      "effect": {
+        "summonedBarbarians": 20,
+        "barbarianDamageIncrease": 140,
+        "barbarianSpeedIncrease": 16
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 440,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 940,
+      "effect": {
+        "summonedBarbarians": 20,
+        "barbarianDamageIncrease": 140,
+        "barbarianSpeedIncrease": 16
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 495,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 1045,
+      "effect": {
+        "summonedBarbarians": 30,
+        "barbarianDamageIncrease": 160,
+        "barbarianSpeedIncrease": 19.1
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "hpRecovery": 572,
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 1155,
+      "effect": {
+        "summonedBarbarians": 30,
+        "barbarianDamageIncrease": 160,
+        "barbarianSpeedIncrease": 19.1
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 660,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 1265,
+      "effect": {
+        "summonedBarbarians": 30,
+        "barbarianDamageIncrease": 160,
+        "barbarianSpeedIncrease": 19.1
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 748,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 1445,
+      "effect": {
+        "summonedBarbarians": 36,
+        "barbarianDamageIncrease": 180,
+        "barbarianSpeedIncrease": 22.3
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "hpRecovery": 847,
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 1755,
+      "effect": {
+        "summonedBarbarians": 36,
+        "barbarianDamageIncrease": 180,
+        "barbarianSpeedIncrease": 22.3
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 946,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 2087,
+      "effect": {
+        "summonedBarbarians": 36,
+        "barbarianDamageIncrease": 180,
+        "barbarianSpeedIncrease": 22.3
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1034,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 2444,
+      "effect": {
+        "summonedBarbarians": 40,
+        "barbarianDamageIncrease": 200,
+        "barbarianSpeedIncrease": 25.5
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 1166,
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 2703,
+      "effect": {
+        "summonedBarbarians": 40,
+        "barbarianDamageIncrease": 200,
+        "barbarianSpeedIncrease": 25.5
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1243,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 3093,
+      "effect": {
+        "summonedBarbarians": 40,
+        "barbarianDamageIncrease": 200,
+        "barbarianSpeedIncrease": 25.5
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "hpRecovery": 1320,
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 3366,
+      "effect": {
+        "summonedBarbarians": 44,
+        "barbarianDamageIncrease": 220,
+        "barbarianSpeedIncrease": 28.7
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "hpRecovery": 1386,
+      "blacksmithLevel": 7
+    }
+  ]
+}

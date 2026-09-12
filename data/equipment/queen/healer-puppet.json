@@ -1,0 +1,315 @@
+{
+  "id": "healer-puppet",
+  "name": "Healer Puppet",
+  "hero": "archer-queen",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Healer Puppet — Active common equipment for the Archer Queen."
+  },
+  "effectKeys": [
+    "summonedHealers",
+    "healerLevel",
+    "selfHealingPerSecond"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Healer_Puppet (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 0,
+      "hp": 132,
+      "effect": {
+        "summonedHealers": 1,
+        "healerLevel": 4,
+        "selfHealingPerSecond": 6
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 2,
+      "dmg": 0,
+      "hp": 154,
+      "effect": {
+        "summonedHealers": 1,
+        "healerLevel": 4,
+        "selfHealingPerSecond": 8
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 3,
+      "dmg": 0,
+      "hp": 177,
+      "effect": {
+        "summonedHealers": 1,
+        "healerLevel": 5,
+        "selfHealingPerSecond": 10
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 4,
+      "dmg": 0,
+      "hp": 199,
+      "effect": {
+        "summonedHealers": 1,
+        "healerLevel": 5,
+        "selfHealingPerSecond": 12
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 5,
+      "dmg": 0,
+      "hp": 221,
+      "effect": {
+        "summonedHealers": 1,
+        "healerLevel": 5,
+        "selfHealingPerSecond": 14
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 6,
+      "dmg": 0,
+      "hp": 243,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 5,
+        "selfHealingPerSecond": 16
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 7,
+      "dmg": 0,
+      "hp": 265,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 5,
+        "selfHealingPerSecond": 18
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 8,
+      "dmg": 0,
+      "hp": 287,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 5,
+        "selfHealingPerSecond": 20
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 9,
+      "dmg": 0,
+      "hp": 331,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 6,
+        "selfHealingPerSecond": 22
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 10,
+      "dmg": 0,
+      "hp": 402,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 6,
+        "selfHealingPerSecond": 24
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 11,
+      "dmg": 0,
+      "hp": 473,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 6,
+        "selfHealingPerSecond": 26
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 12,
+      "dmg": 0,
+      "hp": 543,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 7,
+        "selfHealingPerSecond": 28
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 13,
+      "dmg": 0,
+      "hp": 614,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 7,
+        "selfHealingPerSecond": 30
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 0,
+      "hp": 685,
+      "effect": {
+        "summonedHealers": 2,
+        "healerLevel": 7,
+        "selfHealingPerSecond": 31
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 0,
+      "hp": 756,
+      "effect": {
+        "summonedHealers": 3,
+        "healerLevel": 7,
+        "selfHealingPerSecond": 32
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 0,
+      "hp": 826,
+      "effect": {
+        "summonedHealers": 3,
+        "healerLevel": 7,
+        "selfHealingPerSecond": 33
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 0,
+      "hp": 897,
+      "effect": {
+        "summonedHealers": 3,
+        "healerLevel": 7,
+        "selfHealingPerSecond": 34
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 0,
+      "hp": 968,
+      "effect": {
+        "summonedHealers": 3,
+        "healerLevel": 8,
+        "selfHealingPerSecond": 35
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

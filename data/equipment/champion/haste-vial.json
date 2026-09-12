@@ -1,0 +1,315 @@
+{
+  "id": "haste-vial",
+  "name": "Haste Vial",
+  "hero": "royal-champion",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "duration",
+    "description": "Haste Vial — Active common equipment for the Royal Champion."
+  },
+  "effectKeys": [
+    "abilityDuration",
+    "speedIncrease",
+    "attackSpeedIncrease"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Haste_Vial (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 20,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 7,
+        "speedIncrease": 18,
+        "attackSpeedIncrease": 5
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 2,
+      "dmg": 24,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 7,
+        "speedIncrease": 18,
+        "attackSpeedIncrease": 6
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 3,
+      "dmg": 28,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 7.5,
+        "speedIncrease": 22.3,
+        "attackSpeedIncrease": 6
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 4,
+      "dmg": 32,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 7.5,
+        "speedIncrease": 22.3,
+        "attackSpeedIncrease": 7
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 5,
+      "dmg": 36,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 7.5,
+        "speedIncrease": 22.3,
+        "attackSpeedIncrease": 8
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 6,
+      "dmg": 40,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 8,
+        "speedIncrease": 25.5,
+        "attackSpeedIncrease": 8
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 7,
+      "dmg": 44,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 8,
+        "speedIncrease": 25.5,
+        "attackSpeedIncrease": 9
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 8,
+      "dmg": 48,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 8,
+        "speedIncrease": 25.5,
+        "attackSpeedIncrease": 10
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 9,
+      "dmg": 52,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 8.5,
+        "speedIncrease": 28.7,
+        "attackSpeedIncrease": 10
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 10,
+      "dmg": 56,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 8.5,
+        "speedIncrease": 28.7,
+        "attackSpeedIncrease": 11
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 11,
+      "dmg": 60,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 8.5,
+        "speedIncrease": 28.7,
+        "attackSpeedIncrease": 12
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 12,
+      "dmg": 64,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 9,
+        "speedIncrease": 32,
+        "attackSpeedIncrease": 12
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 13,
+      "dmg": 68,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 9,
+        "speedIncrease": 32,
+        "attackSpeedIncrease": 13
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 14,
+      "dmg": 72,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 9,
+        "speedIncrease": 32,
+        "attackSpeedIncrease": 14
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 15,
+      "dmg": 76,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 9.5,
+        "speedIncrease": 35.1,
+        "attackSpeedIncrease": 14
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 16,
+      "dmg": 80,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 9.5,
+        "speedIncrease": 35.1,
+        "attackSpeedIncrease": 15
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 17,
+      "dmg": 84,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 9.5,
+        "speedIncrease": 35.1,
+        "attackSpeedIncrease": 16
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 18,
+      "dmg": 88,
+      "hp": 0,
+      "effect": {
+        "abilityDuration": 10,
+        "speedIncrease": 38.3,
+        "attackSpeedIncrease": 16
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    }
+  ]
+}

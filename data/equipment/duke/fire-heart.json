@@ -1,0 +1,295 @@
+{
+  "id": "fire-heart",
+  "name": "Fire Heart",
+  "hero": "dragon-duke",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "passive",
+    "description": "Fire Heart — Passive common equipment for the Dragon Duke."
+  },
+  "effectKeys": [
+    "damageOnDefeat",
+    "selfHealingPerSecond"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Fire_Heart (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 10,
+      "hp": 900,
+      "effect": {
+        "damageOnDefeat": 1000,
+        "selfHealingPerSecond": 50
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      }
+    },
+    {
+      "lvl": 2,
+      "dmg": 10,
+      "hp": 1200,
+      "effect": {
+        "damageOnDefeat": 1000,
+        "selfHealingPerSecond": 50
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 12,
+      "hp": 1450,
+      "effect": {
+        "damageOnDefeat": 1350,
+        "selfHealingPerSecond": 70
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 12,
+      "hp": 1750,
+      "effect": {
+        "damageOnDefeat": 1350,
+        "selfHealingPerSecond": 70
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 12,
+      "hp": 2000,
+      "effect": {
+        "damageOnDefeat": 1350,
+        "selfHealingPerSecond": 70
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 14,
+      "hp": 2300,
+      "effect": {
+        "damageOnDefeat": 1700,
+        "selfHealingPerSecond": 90
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 14,
+      "hp": 2600,
+      "effect": {
+        "damageOnDefeat": 1700,
+        "selfHealingPerSecond": 90
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 14,
+      "hp": 2850,
+      "effect": {
+        "damageOnDefeat": 1700,
+        "selfHealingPerSecond": 90
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 16,
+      "hp": 3150,
+      "effect": {
+        "damageOnDefeat": 2000,
+        "selfHealingPerSecond": 110
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 16,
+      "hp": 3400,
+      "effect": {
+        "damageOnDefeat": 2000,
+        "selfHealingPerSecond": 110
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 11,
+      "dmg": 16,
+      "hp": 3700,
+      "effect": {
+        "damageOnDefeat": 2000,
+        "selfHealingPerSecond": 110
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 12,
+      "dmg": 18,
+      "hp": 4000,
+      "effect": {
+        "damageOnDefeat": 2350,
+        "selfHealingPerSecond": 130
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 13,
+      "dmg": 18,
+      "hp": 4250,
+      "effect": {
+        "damageOnDefeat": 2350,
+        "selfHealingPerSecond": 130
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 14,
+      "dmg": 18,
+      "hp": 4550,
+      "effect": {
+        "damageOnDefeat": 2350,
+        "selfHealingPerSecond": 130
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 15,
+      "dmg": 20,
+      "hp": 4800,
+      "effect": {
+        "damageOnDefeat": 2700,
+        "selfHealingPerSecond": 140
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 16,
+      "dmg": 20,
+      "hp": 5100,
+      "effect": {
+        "damageOnDefeat": 2700,
+        "selfHealingPerSecond": 140
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 17,
+      "dmg": 20,
+      "hp": 5450,
+      "effect": {
+        "damageOnDefeat": 2700,
+        "selfHealingPerSecond": 140
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 18,
+      "dmg": 23,
+      "hp": 5600,
+      "effect": {
+        "damageOnDefeat": 3000,
+        "selfHealingPerSecond": 150
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    }
+  ]
+}

@@ -1,0 +1,2092 @@
+{
+  "id": "variant-spread",
+  "name": "Spread",
+  "description": "Compartments pushed wide with a thin middle. Nothing lines up through the centre, so the pair has to work the edges instead.",
+  "buildings": [
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 5
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 6
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 7
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 8
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 9
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 10
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 11
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 12
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 13
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 14
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 16
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 17
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 18
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 19
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 20
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 21
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 22
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 23
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 24
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 25
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 26
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 27
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 28
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 29
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 31
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 32
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 33
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 34
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 35
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 36
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 37
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 38
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 39
+    },
+    {
+      "typeId": "wall",
+      "x": 4,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 5
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 6
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 7
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 8
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 9
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 10
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 11
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 12
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 13
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 14
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 16
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 17
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 18
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 19
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 20
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 21
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 22
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 23
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 24
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 25
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 26
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 27
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 28
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 29
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 31
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 32
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 33
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 34
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 35
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 36
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 37
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 38
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 39
+    },
+    {
+      "typeId": "wall",
+      "x": 12,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 5
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 6
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 7
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 8
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 9
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 10
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 11
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 12
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 13
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 14
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 16
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 17
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 18
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 19
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 20
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 21
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 22
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 23
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 24
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 25
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 26
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 27
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 28
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 29
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 31
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 32
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 33
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 34
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 35
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 36
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 37
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 38
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 39
+    },
+    {
+      "typeId": "wall",
+      "x": 22,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 5
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 6
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 7
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 8
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 9
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 10
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 11
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 12
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 13
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 14
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 17
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 18
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 19
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 20
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 21
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 22
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 23
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 24
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 25
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 26
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 27
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 28
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 29
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 31
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 32
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 33
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 34
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 35
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 36
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 37
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 38
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 39
+    },
+    {
+      "typeId": "wall",
+      "x": 32,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 5
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 6
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 7
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 8
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 9
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 10
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 11
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 12
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 13
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 14
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 16
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 17
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 18
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 19
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 20
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 21
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 22
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 23
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 24
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 25
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 26
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 27
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 28
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 29
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 31
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 32
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 33
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 34
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 35
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 36
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 37
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 38
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 39
+    },
+    {
+      "typeId": "wall",
+      "x": 40,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 5,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 6,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 7,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 9,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 10,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 11,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 13,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 14,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 15,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 16,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 17,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 18,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 19,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 20,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 21,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 23,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 24,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 25,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 26,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 27,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 28,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 29,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 30,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 31,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 33,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 34,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 35,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 36,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 37,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 38,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 39,
+      "y": 4
+    },
+    {
+      "typeId": "wall",
+      "x": 5,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 6,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 7,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 8,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 9,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 10,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 11,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 13,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 14,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 15,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 16,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 17,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 18,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 19,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 20,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 21,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 23,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 24,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 25,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 26,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 27,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 28,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 29,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 30,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 31,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 33,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 34,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 35,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 36,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 37,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 38,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 39,
+      "y": 15
+    },
+    {
+      "typeId": "wall",
+      "x": 5,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 6,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 7,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 8,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 9,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 10,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 11,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 13,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 14,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 15,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 16,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 17,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 18,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 19,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 20,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 21,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 23,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 24,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 25,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 26,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 27,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 28,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 29,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 30,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 31,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 33,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 34,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 35,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 36,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 37,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 38,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 39,
+      "y": 30
+    },
+    {
+      "typeId": "wall",
+      "x": 5,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 6,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 7,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 8,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 9,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 10,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 11,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 13,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 14,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 15,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 16,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 17,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 18,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 19,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 20,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 21,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 23,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 24,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 25,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 26,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 27,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 28,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 29,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 30,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 31,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 33,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 34,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 35,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 36,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 37,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 38,
+      "y": 40
+    },
+    {
+      "typeId": "wall",
+      "x": 39,
+      "y": 40
+    },
+    {
+      "typeId": "town-hall",
+      "x": 15,
+      "y": 21
+    },
+    {
+      "typeId": "monolith",
+      "x": 19,
+      "y": 21
+    },
+    {
+      "typeId": "revenge-tower",
+      "x": 16,
+      "y": 18
+    },
+    {
+      "typeId": "scattershot",
+      "x": 16,
+      "y": 25
+    },
+    {
+      "typeId": "scattershot",
+      "x": 19,
+      "y": 24
+    },
+    {
+      "typeId": "inferno-tower",
+      "x": 13,
+      "y": 22
+    },
+    {
+      "typeId": "inferno-tower",
+      "x": 14,
+      "y": 19
+    },
+    {
+      "typeId": "inferno-tower",
+      "x": 19,
+      "y": 19
+    },
+    {
+      "typeId": "dark-elixir-storage",
+      "x": 26,
+      "y": 21
+    },
+    {
+      "typeId": "gold-storage",
+      "x": 16,
+      "y": 8
+    },
+    {
+      "typeId": "gold-storage",
+      "x": 26,
+      "y": 8
+    },
+    {
+      "typeId": "gold-storage",
+      "x": 7,
+      "y": 21
+    },
+    {
+      "typeId": "gold-storage",
+      "x": 16,
+      "y": 34
+    },
+    {
+      "typeId": "multi-archer-tower",
+      "x": 35,
+      "y": 21
+    },
+    {
+      "typeId": "multi-archer-tower",
+      "x": 26,
+      "y": 34
+    },
+    {
+      "typeId": "multi-archer-tower",
+      "x": 7,
+      "y": 8
+    },
+    {
+      "typeId": "ricochet-cannon",
+      "x": 35,
+      "y": 8
+    },
+    {
+      "typeId": "ricochet-cannon",
+      "x": 7,
+      "y": 34
+    },
+    {
+      "typeId": "ricochet-cannon",
+      "x": 35,
+      "y": 34
+    },
+    {
+      "typeId": "air-defense",
+      "x": 26,
+      "y": 24
+    },
+    {
+      "typeId": "air-defense",
+      "x": 7,
+      "y": 24
+    },
+    {
+      "typeId": "air-defense",
+      "x": 35,
+      "y": 24
+    },
+    {
+      "typeId": "air-defense",
+      "x": 16,
+      "y": 11
+    },
+    {
+      "typeId": "x-bow",
+      "x": 26,
+      "y": 11
+    },
+    {
+      "typeId": "x-bow",
+      "x": 16,
+      "y": 31
+    },
+    {
+      "typeId": "x-bow",
+      "x": 26,
+      "y": 31
+    },
+    {
+      "typeId": "x-bow",
+      "x": 7,
+      "y": 11
+    },
+    {
+      "typeId": "clan-castle",
+      "x": 35,
+      "y": 11
+    },
+    {
+      "typeId": "super-wizard-tower",
+      "x": 23,
+      "y": 21
+    },
+    {
+      "typeId": "super-wizard-tower",
+      "x": 7,
+      "y": 31
+    },
+    {
+      "typeId": "firespitter",
+      "x": 35,
+      "y": 31
+    },
+    {
+      "typeId": "firespitter",
+      "x": 7,
+      "y": 18
+    },
+    {
+      "typeId": "multi-gear-tower",
+      "x": 35,
+      "y": 18
+    },
+    {
+      "typeId": "hero-hunter",
+      "x": 13,
+      "y": 8
+    },
+    {
+      "typeId": "mortar",
+      "x": 23,
+      "y": 8
+    },
+    {
+      "typeId": "mortar",
+      "x": 29,
+      "y": 21
+    },
+    {
+      "typeId": "mortar",
+      "x": 13,
+      "y": 34
+    },
+    {
+      "typeId": "mortar",
+      "x": 23,
+      "y": 34
+    },
+    {
+      "typeId": "wizard-tower",
+      "x": 7,
+      "y": 5
+    },
+    {
+      "typeId": "wizard-tower",
+      "x": 35,
+      "y": 5
+    },
+    {
+      "typeId": "elixir-storage",
+      "x": 7,
+      "y": 27
+    },
+    {
+      "typeId": "elixir-storage",
+      "x": 35,
+      "y": 27
+    },
+    {
+      "typeId": "elixir-storage",
+      "x": 26,
+      "y": 18
+    },
+    {
+      "typeId": "elixir-storage",
+      "x": 7,
+      "y": 37
+    },
+    {
+      "typeId": "bomb-tower",
+      "x": 35,
+      "y": 37
+    },
+    {
+      "typeId": "bomb-tower",
+      "x": 19,
+      "y": 8
+    },
+    {
+      "typeId": "archer-tower",
+      "x": 29,
+      "y": 8
+    },
+    {
+      "typeId": "archer-tower",
+      "x": 19,
+      "y": 34
+    },
+    {
+      "typeId": "air-sweeper",
+      "x": 29,
+      "y": 34
+    },
+    {
+      "typeId": "air-sweeper",
+      "x": 24,
+      "y": 24
+    },
+    {
+      "typeId": "spell-tower",
+      "x": 5,
+      "y": 22
+    },
+    {
+      "typeId": "spell-tower",
+      "x": 33,
+      "y": 22
+    },
+    {
+      "typeId": "workshop",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "typeId": "army-camp",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "typeId": "army-camp",
+      "x": 0,
+      "y": 8
+    },
+    {
+      "typeId": "army-camp",
+      "x": 0,
+      "y": 12
+    },
+    {
+      "typeId": "army-camp",
+      "x": 4,
+      "y": 0
+    },
+    {
+      "typeId": "hero-hall",
+      "x": 0,
+      "y": 16
+    },
+    {
+      "typeId": "dark-elixir-drill",
+      "x": 0,
+      "y": 41
+    },
+    {
+      "typeId": "dark-elixir-drill",
+      "x": 0,
+      "y": 20
+    },
+    {
+      "typeId": "dark-elixir-drill",
+      "x": 8,
+      "y": 0
+    },
+    {
+      "typeId": "dark-barracks",
+      "x": 41,
+      "y": 0
+    },
+    {
+      "typeId": "dark-spell-factory",
+      "x": 3,
+      "y": 41
+    },
+    {
+      "typeId": "laboratory",
+      "x": 0,
+      "y": 23
+    },
+    {
+      "typeId": "gold-mine",
+      "x": 11,
+      "y": 0
+    },
+    {
+      "typeId": "gold-mine",
+      "x": 41,
+      "y": 3
+    },
+    {
+      "typeId": "gold-mine",
+      "x": 6,
+      "y": 41
+    },
+    {
+      "typeId": "gold-mine",
+      "x": 0,
+      "y": 26
+    },
+    {
+      "typeId": "gold-mine",
+      "x": 14,
+      "y": 0
+    },
+    {
+      "typeId": "gold-mine",
+      "x": 41,
+      "y": 6
+    },
+    {
+      "typeId": "gold-mine",
+      "x": 9,
+      "y": 41
+    },
+    {
+      "typeId": "helper-hut",
+      "x": 0,
+      "y": 29
+    },
+    {
+      "typeId": "barracks",
+      "x": 17,
+      "y": 0
+    },
+    {
+      "typeId": "pet-house",
+      "x": 41,
+      "y": 9
+    },
+    {
+      "typeId": "spell-factory",
+      "x": 12,
+      "y": 41
+    },
+    {
+      "typeId": "blacksmith",
+      "x": 0,
+      "y": 32
+    },
+    {
+      "typeId": "elixir-collector",
+      "x": 20,
+      "y": 0
+    },
+    {
+      "typeId": "elixir-collector",
+      "x": 41,
+      "y": 12
+    },
+    {
+      "typeId": "elixir-collector",
+      "x": 15,
+      "y": 41
+    },
+    {
+      "typeId": "elixir-collector",
+      "x": 0,
+      "y": 35
+    },
+    {
+      "typeId": "elixir-collector",
+      "x": 23,
+      "y": 0
+    },
+    {
+      "typeId": "elixir-collector",
+      "x": 41,
+      "y": 15
+    },
+    {
+      "typeId": "elixir-collector",
+      "x": 18,
+      "y": 41
+    },
+    {
+      "typeId": "builder-s-hut",
+      "x": 0,
+      "y": 38
+    },
+    {
+      "typeId": "builder-s-hut",
+      "x": 26,
+      "y": 0
+    },
+    {
+      "typeId": "builder-s-hut",
+      "x": 41,
+      "y": 18
+    },
+    {
+      "typeId": "builder-s-hut",
+      "x": 21,
+      "y": 41
+    },
+    {
+      "typeId": "builder-s-hut",
+      "x": 2,
+      "y": 38
+    },
+    {
+      "typeId": "b-o-b-s-hut",
+      "x": 28,
+      "y": 0
+    },
+    {
+      "typeId": "hero-banner",
+      "x": 41,
+      "y": 20
+    },
+    {
+      "typeId": "hero-banner",
+      "x": 23,
+      "y": 41
+    },
+    {
+      "typeId": "hero-banner",
+      "x": 30,
+      "y": 0
+    },
+    {
+      "typeId": "hero-banner",
+      "x": 32,
+      "y": 0
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 20
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 21
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 22
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 23
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 24
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 25
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 26
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 27
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 28
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 29
+    },
+    {
+      "typeId": "wall",
+      "x": 3,
+      "y": 30
+    }
+  ]
+}

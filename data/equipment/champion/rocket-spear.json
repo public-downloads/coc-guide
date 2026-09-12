@@ -1,0 +1,431 @@
+{
+  "id": "rocket-spear",
+  "name": "Rocket Spear",
+  "hero": "royal-champion",
+  "rarity": "epic",
+  "maxLevel": 27,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Rocket Spear — Active epic equipment for the Royal Champion."
+  },
+  "effectKeys": [
+    "damagePerShotIncrease",
+    "numberOfAttacks"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Rocket_Spear (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 35,
+      "hp": 50,
+      "effect": {
+        "damagePerShotIncrease": 350,
+        "numberOfAttacks": 7
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 40,
+      "hp": 75,
+      "effect": {
+        "damagePerShotIncrease": 350,
+        "numberOfAttacks": 7
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 45,
+      "hp": 100,
+      "effect": {
+        "damagePerShotIncrease": 420,
+        "numberOfAttacks": 7
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 50,
+      "hp": 125,
+      "effect": {
+        "damagePerShotIncrease": 420,
+        "numberOfAttacks": 7
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 55,
+      "hp": 150,
+      "effect": {
+        "damagePerShotIncrease": 420,
+        "numberOfAttacks": 7
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 60,
+      "hp": 175,
+      "effect": {
+        "damagePerShotIncrease": 490,
+        "numberOfAttacks": 7
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 66,
+      "hp": 200,
+      "effect": {
+        "damagePerShotIncrease": 490,
+        "numberOfAttacks": 7
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 72,
+      "hp": 225,
+      "effect": {
+        "damagePerShotIncrease": 490,
+        "numberOfAttacks": 7
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 78,
+      "hp": 250,
+      "effect": {
+        "damagePerShotIncrease": 560,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 10
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 85,
+      "hp": 275,
+      "effect": {
+        "damagePerShotIncrease": 560,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 11,
+      "dmg": 92,
+      "hp": 300,
+      "effect": {
+        "damagePerShotIncrease": 560,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 12,
+      "dmg": 99,
+      "hp": 325,
+      "effect": {
+        "damagePerShotIncrease": 630,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 20
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 13,
+      "dmg": 105,
+      "hp": 350,
+      "effect": {
+        "damagePerShotIncrease": 630,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 14,
+      "dmg": 111,
+      "hp": 375,
+      "effect": {
+        "damagePerShotIncrease": 630,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 15,
+      "dmg": 117,
+      "hp": 400,
+      "effect": {
+        "damagePerShotIncrease": 700,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 30
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 16,
+      "dmg": 122,
+      "hp": 425,
+      "effect": {
+        "damagePerShotIncrease": 700,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 17,
+      "dmg": 127,
+      "hp": 450,
+      "effect": {
+        "damagePerShotIncrease": 700,
+        "numberOfAttacks": 8
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 18,
+      "dmg": 132,
+      "hp": 475,
+      "effect": {
+        "damagePerShotIncrease": 770,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 50
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 19,
+      "dmg": 136,
+      "hp": 500,
+      "effect": {
+        "damagePerShotIncrease": 770,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 2800,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 20,
+      "dmg": 140,
+      "hp": 525,
+      "effect": {
+        "damagePerShotIncrease": 770,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 2900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 21,
+      "dmg": 144,
+      "hp": 550,
+      "effect": {
+        "damagePerShotIncrease": 840,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 3000,
+        "glowy": 600,
+        "starry": 100
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 22,
+      "dmg": 148,
+      "hp": 575,
+      "effect": {
+        "damagePerShotIncrease": 840,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 3100,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 23,
+      "dmg": 152,
+      "hp": 600,
+      "effect": {
+        "damagePerShotIncrease": 840,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 3200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 24,
+      "dmg": 156,
+      "hp": 625,
+      "effect": {
+        "damagePerShotIncrease": 910,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 3300,
+        "glowy": 600,
+        "starry": 120
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 25,
+      "dmg": 160,
+      "hp": 650,
+      "effect": {
+        "damagePerShotIncrease": 910,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 3400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 26,
+      "dmg": 164,
+      "hp": 675,
+      "effect": {
+        "damagePerShotIncrease": 910,
+        "numberOfAttacks": 9
+      },
+      "oreCost": {
+        "shiny": 3500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 27,
+      "dmg": 168,
+      "hp": 700,
+      "effect": {
+        "damagePerShotIncrease": 980,
+        "numberOfAttacks": 10
+      },
+      "oreCost": {
+        "shiny": 3600,
+        "glowy": 600,
+        "starry": 150
+      },
+      "blacksmithLevel": 9
+    }
+  ]
+}

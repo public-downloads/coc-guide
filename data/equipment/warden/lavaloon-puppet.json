@@ -1,0 +1,431 @@
+{
+  "id": "lavaloon-puppet",
+  "name": "Lavaloon Puppet",
+  "hero": "grand-warden",
+  "rarity": "epic",
+  "maxLevel": 27,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "instant",
+    "description": "Lavaloon Puppet — Active epic equipment for the Grand Warden."
+  },
+  "effectKeys": [
+    "summonedLavaloons",
+    "lavaloonLevel"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Lavaloon_Puppet (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 10,
+      "hp": 50,
+      "effect": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 1
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 2,
+      "dmg": 12,
+      "hp": 55,
+      "effect": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 1
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 3,
+      "dmg": 13,
+      "hp": 57,
+      "effect": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 2
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 4,
+      "dmg": 15,
+      "hp": 60,
+      "effect": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 2
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 5,
+      "dmg": 16,
+      "hp": 65,
+      "effect": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 2
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 6,
+      "dmg": 18,
+      "hp": 67,
+      "effect": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 3
+      },
+      "oreCost": {
+        "shiny": 840,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 7,
+      "dmg": 20,
+      "hp": 70,
+      "effect": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 3
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 8,
+      "dmg": 22,
+      "hp": 75,
+      "effect": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 3
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 9,
+      "dmg": 23,
+      "hp": 77,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 4
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 10
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 10,
+      "dmg": 25,
+      "hp": 80,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 4
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 11,
+      "dmg": 28,
+      "hp": 85,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 4
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 12,
+      "dmg": 30,
+      "hp": 87,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 5
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 20
+      },
+      "blacksmithLevel": 1
+    },
+    {
+      "lvl": 13,
+      "dmg": 31,
+      "hp": 90,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 5
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 14,
+      "dmg": 33,
+      "hp": 95,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 5
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 15,
+      "dmg": 35,
+      "hp": 97,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 6
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 30
+      },
+      "blacksmithLevel": 3
+    },
+    {
+      "lvl": 16,
+      "dmg": 37,
+      "hp": 100,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 6
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 17,
+      "dmg": 38,
+      "hp": 105,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 6
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 18,
+      "dmg": 40,
+      "hp": 107,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 7
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 50
+      },
+      "blacksmithLevel": 5
+    },
+    {
+      "lvl": 19,
+      "dmg": 41,
+      "hp": 110,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 7
+      },
+      "oreCost": {
+        "shiny": 2800,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 20,
+      "dmg": 42,
+      "hp": 115,
+      "effect": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 7
+      },
+      "oreCost": {
+        "shiny": 2900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 21,
+      "dmg": 43,
+      "hp": 117,
+      "effect": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 8
+      },
+      "oreCost": {
+        "shiny": 3000,
+        "glowy": 600,
+        "starry": 100
+      },
+      "blacksmithLevel": 7
+    },
+    {
+      "lvl": 22,
+      "dmg": 45,
+      "hp": 120,
+      "effect": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 8
+      },
+      "oreCost": {
+        "shiny": 3100,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 23,
+      "dmg": 46,
+      "hp": 125,
+      "effect": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 9
+      },
+      "oreCost": {
+        "shiny": 3200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 24,
+      "dmg": 47,
+      "hp": 127,
+      "effect": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 9
+      },
+      "oreCost": {
+        "shiny": 3300,
+        "glowy": 600,
+        "starry": 120
+      },
+      "blacksmithLevel": 8
+    },
+    {
+      "lvl": 25,
+      "dmg": 48,
+      "hp": 130,
+      "effect": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 10
+      },
+      "oreCost": {
+        "shiny": 3400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 26,
+      "dmg": 49,
+      "hp": 135,
+      "effect": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 10
+      },
+      "oreCost": {
+        "shiny": 3500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 27,
+      "dmg": 50,
+      "hp": 150,
+      "effect": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 11
+      },
+      "oreCost": {
+        "shiny": 3600,
+        "glowy": 600,
+        "starry": 150
+      },
+      "blacksmithLevel": 9
+    }
+  ]
+}

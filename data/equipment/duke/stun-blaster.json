@@ -1,0 +1,314 @@
+{
+  "id": "stun-blaster",
+  "name": "Stun Blaster",
+  "hero": "dragon-duke",
+  "rarity": "common",
+  "maxLevel": 18,
+  "gameVersion": "2025.10",
+  "dataQuality": "unverified",
+  "ability": {
+    "kind": "duration",
+    "description": "Stun Blaster — Active common equipment for the Dragon Duke."
+  },
+  "effectKeys": [
+    "abilityTotalDamage",
+    "stunDuration",
+    "healthRecovery"
+  ],
+  "sources": [
+    "https://clashofclans.fandom.com/wiki/Stun_Blaster (CC BY-SA)"
+  ],
+  "notes": [
+    "Transcribed from the Fandom wiki, not checked in-game — hence unverified.",
+    "Description is generated from the wiki's summary table; rewrite it by hand for anything player-facing."
+  ],
+  "levels": [
+    {
+      "lvl": 1,
+      "dmg": 40,
+      "hp": 450,
+      "effect": {
+        "abilityTotalDamage": 150,
+        "stunDuration": 4.5,
+        "healthRecovery": 150
+      },
+      "oreCost": {
+        "shiny": 0,
+        "glowy": 0,
+        "starry": 0
+      }
+    },
+    {
+      "lvl": 2,
+      "dmg": 43,
+      "hp": 650,
+      "effect": {
+        "abilityTotalDamage": 150,
+        "stunDuration": 4.5,
+        "healthRecovery": 250
+      },
+      "oreCost": {
+        "shiny": 120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 3,
+      "dmg": 46,
+      "hp": 850,
+      "effect": {
+        "abilityTotalDamage": 200,
+        "stunDuration": 5,
+        "healthRecovery": 350
+      },
+      "oreCost": {
+        "shiny": 240,
+        "glowy": 20,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 4,
+      "dmg": 49,
+      "hp": 1000,
+      "effect": {
+        "abilityTotalDamage": 200,
+        "stunDuration": 5,
+        "healthRecovery": 450
+      },
+      "oreCost": {
+        "shiny": 400,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 5,
+      "dmg": 52,
+      "hp": 1150,
+      "effect": {
+        "abilityTotalDamage": 200,
+        "stunDuration": 5,
+        "healthRecovery": 550
+      },
+      "oreCost": {
+        "shiny": 600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 6,
+      "dmg": 55,
+      "hp": 1300,
+      "effect": {
+        "abilityTotalDamage": 250,
+        "stunDuration": 5.5,
+        "healthRecovery": 650
+      },
+      "oreCost": {
+        "shiny": 940,
+        "glowy": 100,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 7,
+      "dmg": 58,
+      "hp": 1450,
+      "effect": {
+        "abilityTotalDamage": 250,
+        "stunDuration": 5.5,
+        "healthRecovery": 750
+      },
+      "oreCost": {
+        "shiny": 1120,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 8,
+      "dmg": 61,
+      "hp": 1600,
+      "effect": {
+        "abilityTotalDamage": 250,
+        "stunDuration": 5.5,
+        "healthRecovery": 850
+      },
+      "oreCost": {
+        "shiny": 1440,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 9,
+      "dmg": 64,
+      "hp": 1750,
+      "effect": {
+        "abilityTotalDamage": 300,
+        "stunDuration": 6,
+        "healthRecovery": 950
+      },
+      "oreCost": {
+        "shiny": 1800,
+        "glowy": 200,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 10,
+      "dmg": 67,
+      "hp": 1900,
+      "effect": {
+        "abilityTotalDamage": 300,
+        "stunDuration": 6,
+        "healthRecovery": 1050
+      },
+      "oreCost": {
+        "shiny": 1900,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 11,
+      "dmg": 70,
+      "hp": 2000,
+      "effect": {
+        "abilityTotalDamage": 300,
+        "stunDuration": 6,
+        "healthRecovery": 1100
+      },
+      "oreCost": {
+        "shiny": 2000,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 12,
+      "dmg": 73,
+      "hp": 2100,
+      "effect": {
+        "abilityTotalDamage": 350,
+        "stunDuration": 6.5,
+        "healthRecovery": 1150
+      },
+      "oreCost": {
+        "shiny": 2100,
+        "glowy": 400,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 13,
+      "dmg": 76,
+      "hp": 2200,
+      "effect": {
+        "abilityTotalDamage": 350,
+        "stunDuration": 6.5,
+        "healthRecovery": 1180
+      },
+      "oreCost": {
+        "shiny": 2200,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 14,
+      "dmg": 79,
+      "hp": 2275,
+      "effect": {
+        "abilityTotalDamage": 350,
+        "stunDuration": 6.5,
+        "healthRecovery": 1210
+      },
+      "oreCost": {
+        "shiny": 2300,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 15,
+      "dmg": 82,
+      "hp": 2325,
+      "effect": {
+        "abilityTotalDamage": 375,
+        "stunDuration": 7,
+        "healthRecovery": 1240
+      },
+      "oreCost": {
+        "shiny": 2400,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 16,
+      "dmg": 85,
+      "hp": 2375,
+      "effect": {
+        "abilityTotalDamage": 375,
+        "stunDuration": 7,
+        "healthRecovery": 1270
+      },
+      "oreCost": {
+        "shiny": 2500,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 17,
+      "dmg": 88,
+      "hp": 2400,
+      "effect": {
+        "abilityTotalDamage": 375,
+        "stunDuration": 7,
+        "healthRecovery": 1290
+      },
+      "oreCost": {
+        "shiny": 2600,
+        "glowy": 0,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    },
+    {
+      "lvl": 18,
+      "dmg": 90,
+      "hp": 2400,
+      "effect": {
+        "abilityTotalDamage": 400,
+        "stunDuration": 7.5,
+        "healthRecovery": 1300
+      },
+      "oreCost": {
+        "shiny": 2700,
+        "glowy": 600,
+        "starry": 0
+      },
+      "blacksmithLevel": 9
+    }
+  ]
+}

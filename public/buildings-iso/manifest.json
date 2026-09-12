@@ -1,0 +1,287 @@
+{
+  "_note": "Written by scripts/fetch-building-art.ts. Art is Supercell's, used under the Fan Content Policy — see public/units/README.md. `source` is where each file came from.",
+  "art": {
+    "air-defense": {
+      "file": "air-defense.png",
+      "width": 181,
+      "height": 273,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Air_Defense16.png"
+    },
+    "air-sweeper": {
+      "file": "air-sweeper.png",
+      "width": 145,
+      "height": 156,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Air_Sweeper7.png"
+    },
+    "archer-tower": {
+      "file": "archer-tower.png",
+      "width": 190,
+      "height": 245,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Archer_Tower21.png"
+    },
+    "army-camp": {
+      "file": "army-camp.png",
+      "width": 256,
+      "height": 194,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png"
+    },
+    "b-o-b-s-hut": {
+      "file": "b-o-b-s-hut.png",
+      "width": 133,
+      "height": 167,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/8/80/O.T.T.O_Hut5.png"
+    },
+    "barracks": {
+      "file": "barracks.png",
+      "width": 256,
+      "height": 278,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/4/41/Barracks19.png"
+    },
+    "blacksmith": {
+      "file": "blacksmith.png",
+      "width": 170,
+      "height": 195,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Blacksmith9.png"
+    },
+    "bomb-tower": {
+      "file": "bomb-tower.png",
+      "width": 207,
+      "height": 280,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Bomb_Tower13.png"
+    },
+    "builder-s-hut": {
+      "file": "builder-s-hut.webp",
+      "width": 100,
+      "height": 124,
+      "source": "supplied by the project owner"
+    },
+    "cake-a-pult": {
+      "file": "cake-a-pult.png",
+      "width": 256,
+      "height": 302,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Cake-A-Pult4.png"
+    },
+    "cannon": {
+      "file": "cannon.png",
+      "width": 238,
+      "height": 195,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/8/8d/Cannon21.png"
+    },
+    "clan-castle": {
+      "file": "clan-castle.png",
+      "width": 256,
+      "height": 261,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/d/db/Clan_Castle14.png"
+    },
+    "dark-barracks": {
+      "file": "dark-barracks.png",
+      "width": 256,
+      "height": 306,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Dark_Barracks13.png"
+    },
+    "dark-elixir-drill": {
+      "file": "dark-elixir-drill.png",
+      "width": 185,
+      "height": 239,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Dark_Elixir_Drill11.png"
+    },
+    "dark-elixir-storage": {
+      "file": "dark-elixir-storage.png",
+      "width": 256,
+      "height": 287,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Dark_Elixir_Storage13.png"
+    },
+    "dark-spell-factory": {
+      "file": "dark-spell-factory.png",
+      "width": 256,
+      "height": 264,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Dark_Spell_Factory8.png"
+    },
+    "eagle-artillery": {
+      "file": "eagle-artillery.png",
+      "width": 190,
+      "height": 230,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/3/36/Eagle_Artillery7.png"
+    },
+    "elixir-collector": {
+      "file": "elixir-collector.png",
+      "width": 177,
+      "height": 219,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/0/03/Elixir_Collector17.png"
+    },
+    "elixir-storage": {
+      "file": "elixir-storage.png",
+      "width": 256,
+      "height": 261,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/0/08/Elixir_Storage19.png"
+    },
+    "firespitter": {
+      "file": "firespitter.png",
+      "width": 256,
+      "height": 259,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/e/eb/Firespitter3.png"
+    },
+    "giga-bomb": {
+      "file": "giga-bomb.webp",
+      "width": 120,
+      "height": 115,
+      "source": "supplied by the project owner"
+    },
+    "gold-mine": {
+      "file": "gold-mine.png",
+      "width": 243,
+      "height": 239,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/7/71/Gold_Mine17.png"
+    },
+    "gold-storage": {
+      "file": "gold-storage.png",
+      "width": 256,
+      "height": 280,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Gold_Storage19.png"
+    },
+    "helper-hut": {
+      "file": "helper-hut.png",
+      "width": 256,
+      "height": 265,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Helper_Hut.png"
+    },
+    "hero-banner": {
+      "file": "hero-banner.png",
+      "width": 132,
+      "height": 192,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/d/df/Hero_Banner_Empty.png"
+    },
+    "hero-hall": {
+      "file": "hero-hall.png",
+      "width": 256,
+      "height": 272,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/e/ed/Hero_Hall12.png"
+    },
+    "hero-hunter": {
+      "file": "hero-hunter.png",
+      "width": 256,
+      "height": 262,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hero_Hunter4.png"
+    },
+    "hidden-tesla": {
+      "file": "hidden-tesla.png",
+      "width": 256,
+      "height": 374,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Hidden_Tesla17.png"
+    },
+    "hot-candle": {
+      "file": "hot-candle.png",
+      "width": 256,
+      "height": 267,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png"
+    },
+    "inferno-tower": {
+      "file": "inferno-tower.png",
+      "width": 256,
+      "height": 341,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Inferno_Tower12_Multi.png"
+    },
+    "laboratory": {
+      "file": "laboratory.png",
+      "width": 256,
+      "height": 223,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Laboratory16.png"
+    },
+    "monolith": {
+      "file": "monolith.png",
+      "width": 256,
+      "height": 333,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Monolith5.png"
+    },
+    "mortar": {
+      "file": "mortar.png",
+      "width": 256,
+      "height": 256,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Mortar18.png"
+    },
+    "multi-archer-tower": {
+      "file": "multi-archer-tower.png",
+      "width": 197,
+      "height": 266,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Multi-Archer_Tower4.png"
+    },
+    "multi-gear-tower": {
+      "file": "multi-gear-tower.png",
+      "width": 256,
+      "height": 360,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Multi-Gear_Tower3_LongRange.png"
+    },
+    "pet-house": {
+      "file": "pet-house.png",
+      "width": 256,
+      "height": 275,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Pet_House12.png"
+    },
+    "revenge-tower": {
+      "file": "revenge-tower.png",
+      "width": 256,
+      "height": 389,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Revenge_Tower2_Stage3.png"
+    },
+    "ricochet-cannon": {
+      "file": "ricochet-cannon.png",
+      "width": 256,
+      "height": 274,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Ricochet_Cannon4.png"
+    },
+    "scattershot": {
+      "file": "scattershot.png",
+      "width": 256,
+      "height": 248,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Scattershot7.png"
+    },
+    "spell-factory": {
+      "file": "spell-factory.png",
+      "width": 256,
+      "height": 247,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Spell_Factory9.png"
+    },
+    "spell-tower": {
+      "file": "spell-tower.png",
+      "width": 256,
+      "height": 284,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/3/33/Spell_Tower4_Rage.png"
+    },
+    "super-wizard-tower": {
+      "file": "super-wizard-tower.png",
+      "width": 256,
+      "height": 312,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Super_Wizard_Tower2.png"
+    },
+    "town-hall": {
+      "file": "town-hall.png",
+      "width": 256,
+      "height": 257,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png"
+    },
+    "wall": {
+      "file": "wall.png",
+      "width": 75,
+      "height": 95,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Wall19.png"
+    },
+    "wizard-tower": {
+      "file": "wizard-tower.png",
+      "width": 193,
+      "height": 273,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Wizard_Tower17.png"
+    },
+    "workshop": {
+      "file": "workshop.png",
+      "width": 256,
+      "height": 258,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Workshop9.png"
+    },
+    "x-bow": {
+      "file": "x-bow.png",
+      "width": 205,
+      "height": 200,
+      "source": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/X-Bow13_Air.png"
+    }
+  }
+}

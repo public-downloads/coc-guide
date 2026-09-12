@@ -1,0 +1,703 @@
+@import "tailwindcss";
+
+/*
+  `dark:` has to follow the chosen theme, not the OS. Without this it keys off
+  prefers-color-scheme, so picking a light theme on a machine set to dark mode
+  renders every dark-mode colour on a light background — pale amber text on
+  parchment, and so on. Add a theme here when adding a dark one below.
+*/
+@custom-variant dark {
+  &:where(
+      [data-theme="clash-night"] *,
+      [data-theme="slate"] *,
+      [data-theme="midnight"] *,
+      [data-theme="barracks"] *
+    ) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:where(:root:not([data-theme]) *) {
+      @slot;
+    }
+  }
+}
+
+/*
+  Themes are token sets, selected by `data-theme` on <html>. The default —
+  no attribute — is Clash: parchment, gold and clan red, following the OS for
+  light vs dark. Every other theme overrides only the tokens it changes.
+
+  Components must reach for these tokens rather than stacking opacity on
+  --foreground, or contrast stops being predictable across five themes.
+*/
+:root {
+  color-scheme: light;
+
+  --background: #f7e8c8;
+  --foreground: #2e1c0f;
+  --surface: #fdf4e0;
+  --surface-raised: #f0dcb4;
+  --border: #dcc094;
+  --border-strong: #bd9760;
+  --muted: #7c5c39;
+  --accent: #c0392b;
+  --accent-soft: #f7dcd6;
+  --accent-contrast: #fff8ec;
+  --grid: #e4cfa4;
+  /*
+    Training-card slabs, and the one palette that does not follow the theme.
+    A card is a picture of a game object, so it is painted the way the game
+    paints it in every theme: elixir blue, dark elixir a deeper violet, supers
+    dark red, heroes purple, epic equipment gold. Each is a solid fill with
+    the art cut out on top, so it reads on parchment and on midnight alike.
+  */
+  --tile: #5f6fb4;
+  --tile-edge: #2e376b;
+  --tile-dark: #57499e;
+  --tile-dark-edge: #2c2360;
+  --tile-super: #9b3535;
+  --tile-super-edge: #5c1a1a;
+  --tile-epic: #dcb443;
+  --tile-epic-edge: #8f6d15;
+  --hero-tile: #5b4291;
+  --hero-tile-edge: #2c1f4a;
+
+  /* Site header — clan red, the one place the brand colour goes solid. */
+  --header: #c0392b;
+  --header-foreground: #fff8ec;
+  /* Light enough to clear 4.5:1 on the red — #f4cec8 only managed 3.7:1. */
+  --header-muted: #fbe4e0;
+  --header-border: #96291d;
+  --shadow:
+    0 1px 2px rgb(70 45 20 / 0.08), 0 8px 24px -12px rgb(70 45 20 / 0.32);
+
+  /* Practice board */
+  --deploy: #92ab5e;
+  --village: #b3cb78;
+  /* The plot a building stands on, a shade up from the grass. */
+  --village-pad: #c1d986;
+  --wall-top: #7b7c86;
+  --wall-side: #5b5c65;
+  --wall-front: #4a4b53;
+  --grid-minor: #9cb466;
+  --grid-major: #86a052;
+  --glyph: #2e1c0f;
+  --cat-core: #d9a327;
+  --cat-defence: #b3261e;
+  --cat-wall: #9a8262;
+  --cat-resource: #8d6e3f;
+  --cat-army: #4d7c8a;
+  --cat-other: #8a8272;
+  --invalid: #c62828;
+  --path: #ff6f00;
+  --hit: #0f5132;
+  --hero: #1d4ed8;
+  /* The Duke, when the pair is on the board together. */
+  --hero-duke: #c81e1e;
+  --no-deploy: rgb(255 255 255 / 0.18);
+}
+
+/* Clash, dark — the default when the OS asks for dark. */
+:root:not([data-theme]),
+:root[data-theme="clash-night"] {
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+
+    --background: #17110c;
+    --foreground: #f2e4cc;
+    --surface: #221812;
+    --surface-raised: #2e2018;
+    --border: #3d2c20;
+    --border-strong: #58402e;
+    --muted: #a99175;
+    --accent: #e8b53a;
+    --accent-soft: #33240f;
+    --accent-contrast: #17110c;
+    --grid: #2a1e15;
+
+    --header: #7f2a1e;
+    --header-foreground: #fdefe2;
+    --header-muted: #e0b2a7;
+    --header-border: #5c1b12;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.5), 0 8px 24px -12px rgb(0 0 0 / 0.8);
+
+    --deploy: #1f2915;
+    --village: #2c3a1d;
+    /* The plot a building stands on, a shade up from the grass. */
+    --village-pad: #3a482b;
+    --wall-top: #7b7c86;
+    --wall-side: #5b5c65;
+    --wall-front: #4a4b53;
+    --grid-minor: #3d4f28;
+    --grid-major: #4c6132;
+    --glyph: #f2e4cc;
+    --cat-core: #e8b53a;
+    --cat-defence: #e04b3f;
+    --cat-wall: #9c8b6d;
+    --cat-resource: #b08a4e;
+    --cat-army: #6ea8bd;
+    --cat-other: #6f6759;
+    --invalid: #f87171;
+    --path: #ff9d3c;
+    --hit: #7bd88f;
+    --hero: #6aa9ff;
+    /* The Duke, when the pair is on the board together. */
+    --hero-duke: #ff6b6b;
+    --no-deploy: rgb(255 255 255 / 0.10);
+  }
+}
+
+/* Explicitly chosen Clash Night, regardless of the OS. */
+:root[data-theme="clash-night"] {
+  color-scheme: dark;
+
+  --background: #17110c;
+  --foreground: #f2e4cc;
+  --surface: #221812;
+  --surface-raised: #2e2018;
+  --border: #3d2c20;
+  --border-strong: #58402e;
+  --muted: #a99175;
+  --accent: #e8b53a;
+  --accent-soft: #33240f;
+  --accent-contrast: #17110c;
+  --grid: #2a1e15;
+
+  --header: #7f2a1e;
+  --header-foreground: #fdefe2;
+  --header-muted: #e0b2a7;
+  --header-border: #5c1b12;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.5), 0 8px 24px -12px rgb(0 0 0 / 0.8);
+
+  --deploy: #1f2915;
+  --village: #2c3a1d;
+  /* The plot a building stands on, a shade up from the grass. */
+  --village-pad: #3a482b;
+  --wall-top: #7b7c86;
+  --wall-side: #5b5c65;
+  --wall-front: #4a4b53;
+  --grid-minor: #3d4f28;
+  --grid-major: #4c6132;
+  --glyph: #f2e4cc;
+  --cat-core: #e8b53a;
+  --cat-defence: #e04b3f;
+  --cat-wall: #9c8b6d;
+  --cat-resource: #b08a4e;
+  --cat-army: #6ea8bd;
+  --cat-other: #6f6759;
+  --invalid: #f87171;
+  --path: #ff9d3c;
+  --hit: #7bd88f;
+  --hero: #6aa9ff;
+  /* The Duke, when the pair is on the board together. */
+  --hero-duke: #ff6b6b;
+  --no-deploy: rgb(255 255 255 / 0.10);
+}
+
+/* Explicitly chosen Clash (light), regardless of the OS. */
+:root[data-theme="clash"] {
+  color-scheme: light;
+}
+
+/* Paper — the quiet neutral light theme. */
+:root[data-theme="paper"] {
+  color-scheme: light;
+
+  --background: #fbfaf8;
+  --foreground: #1a1714;
+  --surface: #ffffff;
+  --surface-raised: #f4f1ec;
+  --border: #e2ddd4;
+  --border-strong: #cec7ba;
+  --muted: #6d665c;
+  --accent: #b45309;
+  --accent-soft: #fdf0dc;
+  --accent-contrast: #ffffff;
+  --grid: #ebe6dd;
+
+  /* Neutral themes keep a plain header; only Clash goes red. */
+  --header: var(--background);
+  --header-foreground: var(--foreground);
+  --header-muted: var(--muted);
+  --header-border: var(--border);
+  --shadow:
+    0 1px 2px rgb(26 23 20 / 0.04), 0 8px 24px -12px rgb(26 23 20 / 0.18);
+
+  --deploy: #c2d3a0;
+  --village: #dfe9c6;
+  /* The plot a building stands on, a shade up from the grass. */
+  --village-pad: #edf7d4;
+  --wall-top: #7b7c86;
+  --wall-side: #5b5c65;
+  --wall-front: #4a4b53;
+  --grid-minor: #aabf86;
+  --grid-major: #8ba063;
+  --glyph: #2b2721;
+  --cat-core: #a16207;
+  --cat-defence: #b91c1c;
+  --cat-wall: #8a8272;
+  --cat-resource: #7c6f5a;
+  --cat-army: #4d7c8a;
+  --cat-other: #9a9384;
+  --invalid: #dc2626;
+  --path: #f97316;
+  --hit: #16a34a;
+  --hero: #1d4ed8;
+  /* The Duke, when the pair is on the board together. */
+  --hero-duke: #c81e1e;
+  --no-deploy: rgb(255 255 255 / 0.55);
+}
+
+/* Slate — the quiet neutral dark theme. */
+:root[data-theme="slate"] {
+  color-scheme: dark;
+
+  --background: #12100e;
+  --foreground: #ece7e0;
+  --surface: #1a1714;
+  --surface-raised: #23201c;
+  --border: #302b25;
+  --border-strong: #453e35;
+  --muted: #9c9389;
+  --accent: #f0a53c;
+  --accent-soft: #2a2016;
+  --accent-contrast: #12100e;
+  --grid: #262119;
+
+  /* Neutral themes keep a plain header; only Clash goes red. */
+  --header: var(--background);
+  --header-foreground: var(--foreground);
+  --header-muted: var(--muted);
+  --header-border: var(--border);
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 24px -12px rgb(0 0 0 / 0.7);
+
+  --deploy: #151f0e;
+  --village: #202d16;
+  /* The plot a building stands on, a shade up from the grass. */
+  --village-pad: #2e3b24;
+  --wall-top: #7b7c86;
+  --wall-side: #5b5c65;
+  --wall-front: #4a4b53;
+  --grid-minor: #3b4a2b;
+  --grid-major: #55663b;
+  --glyph: #f2eee6;
+  --cat-core: #d69e2e;
+  --cat-defence: #ef4444;
+  --cat-wall: #9c937f;
+  --cat-resource: #a08b6a;
+  --cat-army: #6ea8bd;
+  --cat-other: #6b6558;
+  --invalid: #f87171;
+  --path: #fb923c;
+  --hit: #4ade80;
+  --hero: #60a5fa;
+  /* The Duke, when the pair is on the board together. */
+  --hero-duke: #ff6b6b;
+  --no-deploy: rgb(255 255 255 / 0.09);
+}
+
+/* Midnight — cool, high-contrast dark for long sessions. */
+:root[data-theme="midnight"] {
+  color-scheme: dark;
+
+  --background: #0b1120;
+  --foreground: #e2e8f0;
+  --surface: #111a2e;
+  --surface-raised: #1a2540;
+  --border: #24314f;
+  --border-strong: #38486b;
+  --muted: #93a3bd;
+  --accent: #38bdf8;
+  --accent-soft: #10263c;
+  --accent-contrast: #0b1120;
+  --grid: #1a2540;
+
+  /* Neutral themes keep a plain header; only Clash goes red. */
+  --header: var(--background);
+  --header-foreground: var(--foreground);
+  --header-muted: var(--muted);
+  --header-border: var(--border);
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.5), 0 8px 24px -12px rgb(0 0 0 / 0.9);
+
+  --deploy: #0e2016;
+  --village: #163020;
+  /* The plot a building stands on, a shade up from the grass. */
+  --village-pad: #243e2e;
+  --wall-top: #7b7c86;
+  --wall-side: #5b5c65;
+  --wall-front: #4a4b53;
+  --grid-minor: #22432e;
+  --grid-major: #2e5a3d;
+  --glyph: #e2e8f0;
+  --cat-core: #fbbf24;
+  --cat-defence: #f43f5e;
+  --cat-wall: #7c8ba1;
+  --cat-resource: #a78bfa;
+  --cat-army: #22d3ee;
+  --cat-other: #64748b;
+  --invalid: #fb7185;
+  --path: #fb923c;
+  --hit: #4ade80;
+  --hero: #60a5fa;
+  /* The Duke, when the pair is on the board together. */
+  --hero-duke: #ff6b6b;
+  --no-deploy: rgb(255 255 255 / 0.09);
+}
+
+/*
+  Barracks — the army screen's palette: violet panels, a warm brown board and
+  gold counters. The other themes dress the site as a document; this one
+  dresses it as the game's UI, which is what a player recognises.
+*/
+:root[data-theme="barracks"] {
+  color-scheme: dark;
+
+  /* The army screen is a brown board with wooden compartments. */
+  --background: #4a3122;
+  --foreground: #fff3dd;
+  --surface: #6b4529;
+  --surface-raised: #7d5432;
+  --border: #3a2415;
+  --border-strong: #2b1a0f;
+  --muted: #d9bb93;
+  --accent: #ffb220;
+  --accent-soft: #5c3a22;
+  --accent-contrast: #2b1a0f;
+  --grid: #5c3a22;
+  --shadow: 0 2px 0 rgb(43 26 15 / 0.9), 0 10px 24px -12px rgb(0 0 0 / 0.7);
+
+  --header: #6b3f1f;
+  --header-foreground: #ffeccf;
+  --header-muted: #f0cfa4;
+  --header-border: #472712;
+
+  /* Card slabs are theme-independent; see the note in :root. */
+
+  --deploy: #1f2915;
+  --village: #2c3a1d;
+  /* The plot a building stands on, a shade up from the grass. */
+  --village-pad: #3a482b;
+  --wall-top: #7b7c86;
+  --wall-side: #5b5c65;
+  --wall-front: #4a4b53;
+  --grid-minor: #3d4f28;
+  --grid-major: #4c6132;
+  --glyph: #fff3dd;
+  --cat-core: #ffc93c;
+  --cat-defence: #ef5350;
+  --cat-wall: #a08f77;
+  --cat-resource: #c08b4a;
+  --cat-army: #63b8d6;
+  --cat-other: #8a7a63;
+  --invalid: #ff7a7a;
+  --path: #ffb020;
+  --hit: #7bd88f;
+  --hero: #7cc0ff;
+  /* The Duke, when the pair is on the board together. */
+  --hero-duke: #ff7a7a;
+  --no-deploy: rgb(255 255 255 / 0.12);
+}
+
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-contrast: var(--accent-contrast);
+  --color-grid: var(--grid);
+  --color-header: var(--header);
+  --color-header-foreground: var(--header-foreground);
+  --color-header-muted: var(--header-muted);
+  --color-header-border: var(--header-border);
+  --color-hero-tile: var(--hero-tile);
+  --color-hero-tile-edge: var(--hero-tile-edge);
+  --color-tile: var(--tile);
+  --color-tile-edge: var(--tile-edge);
+  --color-tile-dark: var(--tile-dark);
+  --color-tile-dark-edge: var(--tile-dark-edge);
+  --color-tile-super: var(--tile-super);
+  --color-tile-super-edge: var(--tile-super-edge);
+  --color-tile-epic: var(--tile-epic);
+  --color-tile-epic-edge: var(--tile-epic-edge);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Headings get tighter tracking than Tailwind's default at large sizes. */
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  /*
+    Chunky geometry, after the game's own UI: everything is a thick-edged
+    rounded slab rather than a hairline card. Kept as three variables so the
+    weight can be dialled in one place instead of across every component.
+  */
+  :root {
+    --radius-slab: 1rem;
+    --radius-tile: 0.75rem;
+    --edge: 2px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: var(--edge) solid var(--border-strong);
+    border-radius: var(--radius-slab);
+    box-shadow: var(--shadow);
+  }
+
+  .surface-inset {
+    background: var(--surface-raised);
+    border: var(--edge) solid var(--border);
+    border-radius: var(--radius-slab);
+  }
+
+  /*
+    The compartment ribbon over each section of the army block: a darker bar
+    with a bold label, the way the army screen separates camps from spells.
+  */
+  .ribbon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    background: var(--surface-raised);
+    border-bottom: var(--edge) solid var(--border);
+    padding: 0.5rem 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.7rem;
+  }
+
+  /*
+    The fill bar beside a compartment's counter — how full the camps are,
+    without having to read the numbers. Flexes into whatever the ribbon has
+    left but stops well short of the full width, so it reads as a gauge
+    rather than a divider.
+  */
+  .meter {
+    flex: 1 1 3rem;
+    max-width: 9rem;
+    height: 0.4rem;
+    border-radius: 9999px;
+    background: var(--border);
+    border: 1px solid var(--border-strong);
+    overflow: hidden;
+  }
+
+  .meter > i {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+  }
+
+  /* The x/y counters that sit on every compartment in game. */
+  .counter {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 9999px;
+    border: 1px solid var(--border-strong);
+    background: var(--surface);
+    padding: 0.05rem 0.5rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  /* Pill button, used for every primary action. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    border: var(--edge) solid var(--border-strong);
+    padding: 0.5rem 1.15rem;
+    font-size: 0.875rem;
+    /* Heavier than a web button: the game's are all bold slabs. */
+    font-weight: 700;
+    /* A solid bottom edge reads as depth without a theme-flipping gradient. */
+    box-shadow: 0 2px 0 var(--border-strong);
+    transition:
+      background-color 150ms ease,
+      border-color 150ms ease,
+      color 150ms ease,
+      transform 80ms ease,
+      box-shadow 80ms ease;
+  }
+
+  /* Presses down onto its own shadow. */
+  .btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 0 var(--border-strong);
+  }
+
+  .btn:hover {
+    background: var(--surface-raised);
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-contrast);
+    box-shadow: 0 2px 0 var(--border-strong);
+  }
+
+  .btn-primary:hover {
+    background: var(--accent);
+    filter: brightness(1.08);
+  }
+
+  .btn-active {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .link-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--border-strong);
+    text-underline-offset: 4px;
+  }
+
+  .link-underline:hover {
+    text-decoration-color: var(--accent);
+  }
+
+  /*
+    A bare <select> inherits the page's light text but keeps the OS's white
+    popup, so the options render invisible in dark mode. Both the control and
+    its options need explicit colours.
+  */
+  .select,
+  .input {
+    background: var(--surface);
+    color: var(--foreground);
+    border: var(--edge) solid var(--border-strong);
+    border-radius: var(--radius-tile);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .select option {
+    background: var(--surface);
+    color: var(--foreground);
+  }
+
+  .input::placeholder {
+    color: var(--muted);
+  }
+
+  .select:focus-visible,
+  .input:focus-visible {
+    border-color: var(--accent);
+  }
+
+  /*
+    The practice board, turned to the diamond the game shows.
+
+    The frame is the square the diamond is inscribed in and the only element
+    with a size, so `resize` on it scales the whole board — drag the corner to
+    trade screen space for tile size. `overflow: hidden` is not decoration:
+    `resize` does nothing without it.
+
+    The board is scaled by 1/√2 because a square turned 45° needs that much
+    more room for its corners; without it the points would be cut off.
+  */
+  .village-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    min-width: 18rem;
+    max-width: 100%;
+    overflow: hidden;
+    resize: horizontal;
+  }
+
+  .village-board {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg) scale(0.7071067812);
+    transform-origin: center;
+  }
+
+  /*
+    The 2.5D board does its own projection inside the viewBox, so it needs
+    neither the CSS rotation nor the 1/√2 inset. Its aspect ratio is set
+    inline from the projection itself — see VillageIso — because a number
+    written here would go stale the moment the tile ratio changed.
+  */
+  .village-frame--iso {
+    border-radius: var(--radius-slab);
+    border: var(--edge) solid var(--border-strong);
+    background: var(--background);
+  }
+
+  .village-board--iso {
+    transform: none;
+  }
+
+  /* Small labelled divider used to break up long panels. */
+  .rule {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .rule::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+}
+
+/* Keyboard users get a visible ring; mouse users do not. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
